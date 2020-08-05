@@ -54,4 +54,5 @@ Load in data
 
 
 # Resources
-
+Inkscape - for fixing fine details
+Cartography conventions for things like rivers and labels
