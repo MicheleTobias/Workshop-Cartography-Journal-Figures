@@ -56,3 +56,5 @@ Load in data
 # Resources
 Inkscape - for fixing fine details
 Cartography conventions for things like rivers and labels
+
+[QGIS Training Manual for Map Composer](https://docs.qgis.org/3.10/en/docs/training_manual/map_composer/index.html)
