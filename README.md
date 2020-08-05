@@ -11,7 +11,10 @@ resticted size
 restricted color pallette
 
 
-KEY CONCEPT: MINIMIZE!
+KEY CONCEPTS: 
+* MINIMIZE!
+* What do I want my reader to learn from this map? How does it support the claims I make in my text?
+* Does my map communicate well?
 
 
 ## Journal Art Specifications
