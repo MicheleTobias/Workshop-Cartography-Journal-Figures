@@ -12,7 +12,7 @@ restricted color pallette
 
 
 KEY CONCEPTS: 
-* MINIMIZE!
+* MINIMIZE! Keep only what's absolutely necessary
 * What do I want my reader to learn from this map? How does it support the claims I make in my text?
 * Does my map communicate well?
 
@@ -44,9 +44,12 @@ Licensing - Can you cite your data?  Are you allowed to publish it?
 # Hands On
 
 ## Download Data
+## What story are you trying to tell?
+What's the story? What should readers learn from this map?
+What data do you need to tell that story effectively?
 ## Publisher Specs 
 make up something plausible to work with for our project
-## Setting Up Your Map Project
+## Setting Up Your Map Project: Assemble all the data
 Open QGIS
 Load in data
 ## Set up the print layout page
