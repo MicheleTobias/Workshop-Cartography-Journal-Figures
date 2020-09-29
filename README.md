@@ -16,9 +16,22 @@ KEY CONCEPTS:
 * What do I want my reader to learn from this map? How does it support the claims I make in my text?
 * Does my map communicate well?
 
+# Michele's Process
 
-## Journal Art Specifications
 
+## 1. What Story Are You Telling?
+
+The very first thing you need to do is understand what story you need to tell.  Why are you making this map?  What should the reader learn from this map.
+
+Let's look at some real life examples.  I made a set of maps for a professor in Sociology.  He was writing a book about cinemas in Paris.  He needed readers to understand the location of the cinemas he wrote about in relation to other key features like subway lines and streets.  So that's the story - where are the cinemas in relation to the streets and subways?
+
+## 2. Data
+What data do we need to tell our story?  In the case of the Paris cinemas, I needed the cinema locations, the streets, and the subway lines.  In some cases, this is easier said than done.  Data processing is pretty common at this stage to issolate just the pieces of a data you need or to convert the data into a different format.  For the cinemas, I had addresses and those needed to be geocoded to create points.  I had OpenStreetMap data for the line work, but that includes a lot more lines than I needed so I had to subset to the larger roads (excluding foot paths) and subways.
+
+## 3. Journal Art Specifications
+We still haven't made a map yet.  We need to know what the publisher specifications are before we start anything else.  There's no point in creating a beautiful map at full page size when you won't be able to use it in the final product.  Publisher specs are often rather restrictive.  This will drive much of your creativity but also provide a decent amount of frustration.  Be prepared.
+
+Let's look at one real-world example:
 
 ## Page Set Up
 Once you know your art specs, set up your page in the print composer/layout manager
