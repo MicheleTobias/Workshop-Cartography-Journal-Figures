@@ -16,12 +16,12 @@ KEY CONCEPTS:
 * What do I want my reader to learn from this map? How does it support the claims I make in my text?
 * Does my map communicate well?
 
-# Michele's Process
+# Steps in Making a Map for a Journal Figure
 
 
 ## 1. What Story Are You Telling?
 
-The very first thing you need to do is understand what story you need to tell.  Why are you making this map?  What should the reader learn from this map.
+The very first thing you need to do is understand what story you need to tell.  Why are you making this map?  What should the reader learn from this map?
 
 Let's look at some real life examples.  I made a set of maps for a professor in Sociology.  He was writing a book about cinemas in Paris.  He needed readers to understand the location of the cinemas he wrote about in relation to other key features like subway lines and streets.  So that's the story - where are the cinemas in relation to the streets and subways?
 
