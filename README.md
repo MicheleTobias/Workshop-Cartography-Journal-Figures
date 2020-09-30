@@ -46,21 +46,38 @@ I look for the following pieces of information:
 Often you will need to piece together specs for maps from different sections of the author instructions.  Parts of the figure specs, photography, or graphs may apply.
 
 
-## Page Set Up
-Once you know your art specs, set up your page in the print composer/layout manager
+## 4. Page Set Up
+Once you know your art specs, set up your page in the print composer/layout manager.  I typically do this immediately after loading my data, or even before. You want to assemble your map at the right size from the start to avoid having to re-do steps.
 
-## Background Data
-Don't use "base maps" or pre-assembled data tiles unless you have to.  Vector data is better for clear line work.  
-Almost NEVER use an airphoto.
-What does the reader need to understand your map?
-Licensing - Can you cite your data?  Are you allowed to publish it?
+## 5. Fonts
+For readability, I suggest 8 pt or larger font.
+
+Which font?  It depends.  Pick a font that is readable at small sizes.  Typically, I find sans serif fonts (think Calibri) to work better than serif fonts (think Times New Roman) in small maps, but that's not a rule.  Calibri is a good standard choice available on most computers.  My current favorite is an open font called Glacial Indiference which has a bit of a mid-century modern vibe.
+
+Some font tricks that can help: adjust the line spacing and kerning (the distance between the letters) to tighten up labels and make them take up less room.  Don't go crazy, but a little less spacing is sometimes helpful.
+
+## 6. Color Hierarchy
+Even when you're restricted to a gray-scale color palette, you can make use of visual hierarchy.  
+
+Vary the amount of black in your grays (10% black is pretty light vs. 90% black is almost, well, black).  
+
+Vary your line width or the size of your points.  
+
+Save black for the most important items in your map - the things you need the reader to notice.
 
 
-## Fonts
-8 pt or larger
+## 5. Other Things to Think About
 
-## Color Hierarchy
-... grays vs. blacks
+### Background Data
+Remember Step 1 where we discussed our story?  I bet "Google Maps" or "All of OSM" wasn't a part of that story.  My personal preference is to not use "base maps" or pre-assembled data tiles unless I absolutely have to.  Vector data is better for clear line work and often "base maps" contain too much information.  They can also be difficult to cite properly when the data has been re-processed by a commercial company.
+
+I almost NEVER use an airphoto.  I love airphotos. They are fun to look at because they have a lot of information in them, but that's the problem.  We need simplicity and airphotos are not simple. Polygons in our map often cover up the airphoto, so that kind of defeats the purpose.
+
+### Licensing 
+Can you cite your data?  Are you allowed to publish it?  More and more often, publishers are asking for proof of their ability to publish the data legally.  This means that the data either need to be open licensed or you need a document giving you permission to use the data in a publication.
+
+
+
 
 
 ## Legends & Other Map Elements
