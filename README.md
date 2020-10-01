@@ -85,18 +85,29 @@ Can you cite your data?  Are you allowed to publish it?  More and more often, pu
 
 
 # Hands On
+To gain experience with the concepts we just talked about, let's make a map!  
+
+## What story are you trying to tell?
+
+### The Premise of this Exercise
+Let's pretend we want to a map for a journal article about the psychology of cryptozoology sightings in the northeastern US and southeastern Canada, focusing on lake monsters.  Central to your argument in this paper is the location of the monsters in relation to their supposed habitat.
+
+
+
+What's the story? What should readers learn from this map? What data do you need to tell that story effectively?
 
 ## Download Data
 
-Possible data options
+### Data Processing
+We'll be working with an international dataset of locations of lake monsters, the most famous of which is arguably Nessie who supposedly lives in Loch Ness in Scotland.  This dataset was assembled from [Wikipedia's List of Lake Monsters](https://en.m.wikipedia.org/wiki/List_of_lake_monsters).  The lake names were geocoded (you can find the R script that I wrote to process the data in the script folder of this repo), then exported to a geopackage file.  Why did I process this data for you?  It took a few hours to do and requires skills we are not focusing on in this workshop.  
 
+<!---
+Other Possible data options
 1. Bigfoot sightings - [data](http://bfro.net/GDB/default.asp) and [map](http://thumbnails.visually.netdna-cdn.com/squatch-watch-92-years-of-bigfoot-sightings-in-the-us-and-canada_5238386654cce.png)
 1. Davis mailboxes - [Yolo Co Open Data Portal](https://yodata-yolo.opendata.arcgis.com/)
 1. 
+--->
 
-## What story are you trying to tell?
-What's the story? What should readers learn from this map?
-What data do you need to tell that story effectively?
 ## Publisher Specs 
 make up something plausible to work with for our project
 ## Setting Up Your Map Project: Assemble all the data
