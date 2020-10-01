@@ -16,8 +16,8 @@ KEY CONCEPTS:
 * What do I want my reader to learn from this map? How does it support the claims I make in my text?
 * Does my map communicate well?
 
+------------------------------------------------------------------------------------------------------------------------
 # Steps in Making a Map for a Journal Figure
-
 
 ## 1. What Story Are You Telling?
 
@@ -49,14 +49,16 @@ Often you will need to piece together specs for maps from different sections of 
 ## 4. Page Set Up
 Once you know your art specs, set up your page in the print composer/layout manager.  I typically do this immediately after loading my data, or even before. You want to assemble your map at the right size from the start to avoid having to re-do steps.
 
-## 5. Fonts
+## 5. Design & Layout
+
+### Fonts
 For readability, I suggest 8 pt or larger font.
 
 Which font?  It depends.  Pick a font that is readable at small sizes.  Typically, I find sans serif fonts (think Calibri) to work better than serif fonts (think Times New Roman) in small maps, but that's not a rule.  Calibri is a good standard choice available on most computers.  My current favorite is an open font called Glacial Indiference which has a bit of a mid-century modern vibe.
 
 Some font tricks that can help: adjust the line spacing and kerning (the distance between the letters) to tighten up labels and make them take up less room.  Don't go crazy, but a little less spacing is sometimes helpful.
 
-## 6. Color Hierarchy
+### Color Hierarchy
 Even when you're restricted to a gray-scale color palette, you can make use of visual hierarchy.  
 
 Vary the amount of black in your grays (10% black is pretty light vs. 90% black is almost, well, black).  
@@ -65,15 +67,17 @@ Vary your line width or the size of your points.
 
 Save black for the most important items in your map - the things you need the reader to notice.
 
-## 7. Background Data
+### Background Data
 Remember Step 1 where we discussed our story?  I bet "Google Maps" or "All of OSM" wasn't a part of that story.  My personal preference is to not use "base maps" or pre-assembled data tiles unless I absolutely have to.  Vector data is better for clear line work and often "base maps" contain too much information.  They can also be difficult to cite properly when the data has been re-processed by a commercial company.
 
 I almost NEVER use an airphoto.  I love airphotos. They are fun to look at because they have a lot of information in them, but that's the problem.  We need simplicity and airphotos are not simple. Polygons in our map often cover up the airphoto, so that kind of defeats the purpose.
 
-## 8. Figure Caption
+### Figure Caption
 One special thing about figures in journal articles is that they get captions!  Captions are text that explains why you put this image in the article and what the reader needs to know about it.  Caption text can sometimes take the place of a map legend.  For example: *Figure 1: Study site locations. Black squares indicate sites treated with experimental weed killer and open circles indicate control sites.*
 
-## 9. Map Elements
+Depending on the journal, the figure caption should contain the citation in the journal's preferred style for the data you used and the cartographer's name.
+
+### Map Elements
 You may have learned in your introductory GIS class that all maps need a title, legend, scale bar, and north arrow.  That was a lie.  Well... let me explain.  We talked earlier about identifying your story and tailoring your map to communicate well.  Some map figures will need some of these things.  Others will not.  
 
 **Title:** You'll almost never need a title (that's what the figure caption is for).  
@@ -86,17 +90,22 @@ When you need to add map elements to the layout, please keep it simple and subtl
 
 Only add the elements that help your reader understand the map.  Eliminate everything extra.  When it doubt, explain it in the figure caption.
 
-## 10. Licensing 
-Can you cite your data?  Are you allowed to publish it?  More and more often, publishers are asking for proof of their ability to publish the data legally.  This means that the data either need to be open licensed or you need a document giving you permission to use the data in a publication.
+## 6. Image Export
+Refer to your publisher specifications.  Export the format they ask for using the parameters they want.  If it's a raster format (.jpg, .png, .tiff), export the image in the highest resolution they ask for.  
+
+Often you will submit lower resolution images for the review process and higher quality images for the final submission.
+
+Caveats for the final submission: If they ask for 300 dpi or less, I'm still sending 600.  If they don't specify and image format or resolution, I default to 600 dpi .tiff or .png. If they ask for a .ai or .eps file and you don't have access to Adobe Illustrator to create that, a plain .svg, or a .pdf will also work.  
+
+## 7. Licensing 
+Can you cite your data?  Are you allowed to publish it?  
+
+More and more often, publishers are asking for proof of their ability to publish the data legally.  This means that the data either need to be open licensed or you need a document giving you permission to use the data in a publication.  You decide the license for the data you create.  Where people typically get hung up is on data they download from the internet.  When you do this, look for the data's license statement, readme file, or metadata to find the license and save that information alongside the data files.  I'll put relevant license information, source, and date I downloaded it in a .txt file in the same folder with the data.
+
+Some journals are also asking who made the maps you include in your submission to avoid reproducing images that belong to someone else - i.e. maps you find online and want to use. 
 
 
-
-
-
-## Legends & Other Map Elements
-
-
-
+-----------------------------------------------------------------------------------------------
 # Hands On
 To gain experience with the concepts we just talked about, let's make a map!  
 
@@ -104,8 +113,6 @@ To gain experience with the concepts we just talked about, let's make a map!
 
 ### The Premise of this Exercise
 Let's pretend we want to a map for a journal article about the psychology of cryptozoology sightings in the northeastern US and southeastern Canada, focusing on lake monsters.  Central to your argument in this paper is the location of the monsters in relation to their supposed habitat.  We will submit our papr to one of the Nature journals.
-
-
 
 What's the story? What should readers learn from this map? What data do you need to tell that story effectively?
 
