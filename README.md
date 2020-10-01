@@ -87,6 +87,13 @@ Can you cite your data?  Are you allowed to publish it?  More and more often, pu
 # Hands On
 
 ## Download Data
+
+Possible data options
+
+1. Bigfoot sightings - [data](http://bfro.net/GDB/default.asp) and [map](http://thumbnails.visually.netdna-cdn.com/squatch-watch-92-years-of-bigfoot-sightings-in-the-us-and-canada_5238386654cce.png)
+1. Davis mailboxes - [Yolo Co Open Data Portal](https://yodata-yolo.opendata.arcgis.com/)
+1. 
+
 ## What story are you trying to tell?
 What's the story? What should readers learn from this map?
 What data do you need to tell that story effectively?
