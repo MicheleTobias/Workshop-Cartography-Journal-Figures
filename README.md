@@ -65,15 +65,28 @@ Vary your line width or the size of your points.
 
 Save black for the most important items in your map - the things you need the reader to notice.
 
-
-## 5. Other Things to Think About
-
-### Background Data
+## 7. Background Data
 Remember Step 1 where we discussed our story?  I bet "Google Maps" or "All of OSM" wasn't a part of that story.  My personal preference is to not use "base maps" or pre-assembled data tiles unless I absolutely have to.  Vector data is better for clear line work and often "base maps" contain too much information.  They can also be difficult to cite properly when the data has been re-processed by a commercial company.
 
 I almost NEVER use an airphoto.  I love airphotos. They are fun to look at because they have a lot of information in them, but that's the problem.  We need simplicity and airphotos are not simple. Polygons in our map often cover up the airphoto, so that kind of defeats the purpose.
 
-### Licensing 
+## 8. Figure Caption
+One special thing about figures in journal articles is that they get captions!  Captions are text that explains why you put this image in the article and what the reader needs to know about it.  Caption text can sometimes take the place of a map legend.  For example: *Figure 1: Study site locations. Black squares indicate sites treated with experimental weed killer and open circles indicate control sites.*
+
+## 9. Map Elements
+You may have learned in your introductory GIS class that all maps need a title, legend, scale bar, and north arrow.  That was a lie.  Well... let me explain.  We talked earlier about identifying your story and tailoring your map to communicate well.  Some map figures will need some of these things.  Others will not.  
+
+**Title:** You'll almost never need a title (that's what the figure caption is for).  
+
+**Legend:** If your style choices are obvious, you don't need a legend.  Study site locations marked with bold black dots, clearly labeled, probably don't need a legend.  Legends should show the elements a reader woudn't figure out on their own. 
+
+**Scale Bar & North Arrow:** If your map shows the entirety of a recognizable geographic element, such as a continent, you probably don't need a scale bar and if you haven't rotated the map, you don't need a north arrow.  
+
+When you need to add map elements to the layout, please keep it simple and subtle.  Your reader will find the north arrow if they need it. It doesn't need to scream at them.   
+
+Only add the elements that help your reader understand the map.  Eliminate everything extra.  When it doubt, explain it in the figure caption.
+
+## 10. Licensing 
 Can you cite your data?  Are you allowed to publish it?  More and more often, publishers are asking for proof of their ability to publish the data legally.  This means that the data either need to be open licensed or you need a document giving you permission to use the data in a publication.
 
 
@@ -90,7 +103,7 @@ To gain experience with the concepts we just talked about, let's make a map!
 ## What story are you trying to tell?
 
 ### The Premise of this Exercise
-Let's pretend we want to a map for a journal article about the psychology of cryptozoology sightings in the northeastern US and southeastern Canada, focusing on lake monsters.  Central to your argument in this paper is the location of the monsters in relation to their supposed habitat.
+Let's pretend we want to a map for a journal article about the psychology of cryptozoology sightings in the northeastern US and southeastern Canada, focusing on lake monsters.  Central to your argument in this paper is the location of the monsters in relation to their supposed habitat.  We will submit our papr to one of the Nature journals.
 
 
 
@@ -108,14 +121,20 @@ Other Possible data options
 1. 
 --->
 
-## Publisher Specs 
-make up something plausible to work with for our project
+## Publisher Specifications 
+Let's assume this map is for an article in one of the Nature journals, so all of the specifications we discussed earlier will apply.
+
+
 ## Setting Up Your Map Project: Assemble all the data
 Open QGIS
 Load in data
+
 ## Set up the print layout page
+
 ## Style the data
+
 ## Make adjustments
+
 ## Export your map
 
 
