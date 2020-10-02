@@ -135,6 +135,7 @@ Let's assume this map is for an article in one of the Nature journals, so all of
 ## Setting Up Your Map Project: Assemble all the data
 Open QGIS
 Load in data
+Projection: North America Albers Equal Area Conic (ESRI: 102008)
 
 ## Set up the print layout page
 
