@@ -2,13 +2,17 @@
 
 Author: Michele Tobias
 
-**This workshop is a work in progress.  Please check back later for the finished product.  Target completion date: December 2020**
+**This workshop is a work in progress.  Please check back later for the finished product.  Target completion date: October 27, 2020**
 
 This workshop will discuss approaches and guidelines for creating map figures for academic books and journals.  We'll use QGIS to illustrate one workflow in a graphical GIS.  This general workflow can be applied to other graphical GIS programs or even programming environments.
 
+In this workshop, I will assume you have an introductory understanding of common spatial data formats (raster and vector, specifically), desktop GIS in general, and QGIS specifically.  My [Intro to Desktop GIS with QGIS Workshop](https://github.com/MicheleTobias/Intro-to-Desktop-GIS-with-QGIS) is a good introduction or resource if you need a refresher.
+
+# Introduction
 How are map figures different from other maps you might make?
-resticted size
-restricted color pallette
+* resticted size
+* restricted color pallette
+* citations & license for data you use
 
 
 KEY CONCEPTS: 
