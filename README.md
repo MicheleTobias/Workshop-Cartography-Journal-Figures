@@ -139,7 +139,7 @@ The data we have to work with today is:
 Geopackage (.gpkg) is a single file, open vector format. We're using it today because it's one file per dataset (unlike Shapefile), which makes data management so much easier.  See the README.txt file that comes with the data download for more details and sources of the data.
 
 ### Data Processing
-We'll be working with an international dataset of locations of lake monsters, the most famous of which is arguably Nessie who supposedly lives in Loch Ness in Scotland.  This dataset was assembled from [Wikipedia's List of Lake Monsters](https://en.m.wikipedia.org/wiki/List_of_lake_monsters).  The lake names were geocoded (you can find the R script that I wrote to process the data in the [r_scripts](//r_scripts) folder of this repo), then exported to a geopackage file.  Why did I process this data for you?  It took a few hours to do and requires skills we are not focusing on in this workshop.  
+We'll be working with an international dataset of locations of lake monsters, the most famous of which is arguably Nessie who supposedly lives in Loch Ness in Scotland.  This dataset was assembled from [Wikipedia's List of Lake Monsters](https://en.m.wikipedia.org/wiki/List_of_lake_monsters).  The lake names were geocoded (you can find the R script that I wrote to process the data in the [r_scripts](/r_scripts) folder of this repo), then exported to a geopackage file.  Why did I process this data for you?  It took a few hours to do and requires skills we are not focusing on in this workshop.  
 
 <!---
 Other Possible data options
@@ -160,11 +160,14 @@ Most importantly:
 ## Setting Up Your Map Project: Assemble all the data
 1. Open QGIS and start a new project.
 
-2. Load in the data. All of the data we're working with today is vector data.
+2. Load in the data - Lake Monsters, Lakes, Admin 1 boundaries (states). All of the data we're working with today is vector data.
 
+![Alt Text](/images/LoadData.png)
 
+3. Save your project file.
 
-Projection: North America Albers Equal Area Conic (ESRI: 102008)
+4. Set your project's projection to North America Albers Equal Area Conic (ESRI: 102008). I'm using the first transformation it offers me because that one is most appropriate for the area we'll be mapping today. Save again.
+
 
 ## Set up the print layout page
 
