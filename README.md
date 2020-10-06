@@ -19,7 +19,7 @@ How are map figures different from other maps you might make?
 * citations & license for data you use
 
 
-**KEY CONCEPTS: **
+**KEY CONCEPTS:**
 * MINIMIZE! Keep only what's absolutely necessary
 * What do I want my reader to learn from this map? How does it support the claims I make in my text?
 * Does my map communicate well?
@@ -61,6 +61,8 @@ Once you know your art specs, set up your page in the print composer/layout mana
 
 ### Fonts
 For readability, I suggest 8 pt or larger font.
+
+How many fonts? I use one, maybe 2 in a journal figure map. Bold, slant, itallic, and light variants of one fond are more than enough options *if I need them at all*.  Simplicity is key.
 
 Which font?  It depends.  Pick a font that is readable at small sizes.  Typically, I find sans serif fonts (think Calibri) to work better than serif fonts (think Times New Roman) in small maps, but that's not a rule.  Calibri is a good standard choice available on most computers.  My current favorite is an open font called Glacial Indiference which has a bit of a mid-century modern vibe.
 
@@ -120,14 +122,24 @@ To gain experience with the concepts we just talked about, let's make a map!
 ## What story are you trying to tell?
 
 ### The Premise of this Exercise
-Let's pretend we want to a map for a journal article about the underpinnings of the distribution of cryptozoology sightings in the northeastern US and southeastern Canada, focusing on lake monsters.  Central to your argument in this paper is the location of the monsters in relation to each other and lakes.  In our imaginary scenario, we plan to submit our paper to one of the Nature journals.
+Let's pretend we want to a map for a journal article about the underpinnings of the distribution of cryptozoology sightings in the northeastern US and southeastern Canada, focusing on lake monsters.  Central to your argument in this paper is the location of the monsters and you want your readers to understand the relationship between the monster locations and also their location on the planet.  In our imaginary scenario, we plan to submit our paper to one of the Nature journals.
 
 What's the story? What should readers learn from this map? What data do you need to tell that story effectively?
 
+The story I plan to tell is where are these monsters reported to live? What are their names? For reference, what lakes and states or provinces are they in?  Your story might be different
+
 ## Download Data
+If you haven't already, download the workshop data from the [online repository](https://ucdavis.app.box.com/folder/123942289025)
+
+The data we have to work with today is:
+* LakeMonsters.gpkg - locations of lake monsters; global distribution
+* Lakes_GreatLakes-Area.gpkg - a clip of the Natural Earth Data lakes dataset for the Great Lakes and areas adjacent
+* US_CAN_Admin1.gpkg - a clip of the Natural Earth Data states and provinces data for the US and Canada
+
+Geopackage (.gpkg) is a single file, open vector format. We're using it today because it's one file per dataset (unlike Shapefile), which makes data management so much easier.  See the README.txt file that comes with the data download for more details and sources of the data.
 
 ### Data Processing
-We'll be working with an international dataset of locations of lake monsters, the most famous of which is arguably Nessie who supposedly lives in Loch Ness in Scotland.  This dataset was assembled from [Wikipedia's List of Lake Monsters](https://en.m.wikipedia.org/wiki/List_of_lake_monsters).  The lake names were geocoded (you can find the R script that I wrote to process the data in the script folder of this repo), then exported to a geopackage file.  Why did I process this data for you?  It took a few hours to do and requires skills we are not focusing on in this workshop.  
+We'll be working with an international dataset of locations of lake monsters, the most famous of which is arguably Nessie who supposedly lives in Loch Ness in Scotland.  This dataset was assembled from [Wikipedia's List of Lake Monsters](https://en.m.wikipedia.org/wiki/List_of_lake_monsters).  The lake names were geocoded (you can find the R script that I wrote to process the data in the [r_scripts](//r_scripts) folder of this repo), then exported to a geopackage file.  Why did I process this data for you?  It took a few hours to do and requires skills we are not focusing on in this workshop.  
 
 <!---
 Other Possible data options
@@ -139,10 +151,19 @@ Other Possible data options
 ## Publisher Specifications 
 Let's assume this map is for an article in one of the Nature journals, so all of the specifications we discussed earlier will apply.
 
+Most importantly:
+* **Size**: 183 x <240 mm
+* **Format**: .jpg
+* **Other**: No divided images unless the sections are related
+
 
 ## Setting Up Your Map Project: Assemble all the data
-Open QGIS
-Load in data
+1. Open QGIS and start a new project.
+
+2. Load in the data. All of the data we're working with today is vector data.
+
+
+
 Projection: North America Albers Equal Area Conic (ESRI: 102008)
 
 ## Set up the print layout page
