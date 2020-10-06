@@ -8,6 +8,10 @@ This workshop will discuss approaches and guidelines for creating map figures fo
 
 In this workshop, I will assume you have an introductory understanding of common spatial data formats (raster and vector, specifically), desktop GIS in general, and QGIS specifically.  My [Intro to Desktop GIS with QGIS Workshop](https://github.com/MicheleTobias/Intro-to-Desktop-GIS-with-QGIS) is a good introduction or resource if you need a refresher.
 
+Prepare for this workshop:
+* Download and install [QGIS](https://qgis.org/) - a free and open source GIS that works on Windows, Mac, and Linux
+* Download the workshop data from the [online repository](https://ucdavis.app.box.com/folder/123942289025) - note that you can download a zip of the folder's contents by clicking on the 3 dots button in the upper right corner.  You do not need to be a UC Davis affiliate to download this data.
+
 # Introduction
 How are map figures different from other maps you might make?
 * resticted size
@@ -15,7 +19,7 @@ How are map figures different from other maps you might make?
 * citations & license for data you use
 
 
-KEY CONCEPTS: 
+**KEY CONCEPTS: **
 * MINIMIZE! Keep only what's absolutely necessary
 * What do I want my reader to learn from this map? How does it support the claims I make in my text?
 * Does my map communicate well?
@@ -99,7 +103,7 @@ Refer to your publisher specifications.  Export the format they ask for using th
 
 Often you will submit lower resolution images for the review process and higher quality images for the final submission.
 
-Caveats for the final submission: If they ask for 300 dpi or less, I'm still sending 600.  If they don't specify and image format or resolution, I default to 600 dpi .tiff or .png. If they ask for a .ai or .eps file and you don't have access to Adobe Illustrator to create that, a plain .svg, or a .pdf will also work.  
+Caveats for the final submission: If they ask for 300 dpi or less, I'm still sending 600.  If they don't specify an image format or resolution, I default to 600 dpi .tiff or .png. If they ask for a .ai or .eps file and you don't have access to Adobe Illustrator to create that, a plain .svg, or a .pdf will also work.  
 
 ## 7. Licensing 
 Can you cite your data?  Are you allowed to publish it?  
@@ -116,7 +120,7 @@ To gain experience with the concepts we just talked about, let's make a map!
 ## What story are you trying to tell?
 
 ### The Premise of this Exercise
-Let's pretend we want to a map for a journal article about the psychology of cryptozoology sightings in the northeastern US and southeastern Canada, focusing on lake monsters.  Central to your argument in this paper is the location of the monsters in relation to their supposed habitat.  We will submit our papr to one of the Nature journals.
+Let's pretend we want to a map for a journal article about the underpinnings of the distribution of cryptozoology sightings in the northeastern US and southeastern Canada, focusing on lake monsters.  Central to your argument in this paper is the location of the monsters in relation to each other and lakes.  In our imaginary scenario, we plan to submit our paper to one of the Nature journals.
 
 What's the story? What should readers learn from this map? What data do you need to tell that story effectively?
 
