@@ -129,19 +129,19 @@ To gain experience with the concepts we just talked about, let's make a map!
 ## What story are you trying to tell?
 
 ### The Premise of this Exercise
-Let's pretend we want to a map for a journal article about the underpinnings of the distribution of cryptozoology sightings in the northeastern US and southeastern Canada, focusing on lake monsters.  Central to your argument in this paper is the location of the monsters and you want your readers to understand the relationship between the monster locations and also their location on the planet.  In our imaginary scenario, we plan to submit our paper to one of the Nature journals.
+Let's pretend we want to a map for a journal article about the underpinnings of the distribution of cryptozoology sightings in the northeastern US and southeastern Canada, focusing on lake monsters, creatures reported to live in lakes that are mainly known from folklore and typically take on the the shape of extinct or extraordinarlily large living reptiles.  You want your readers to understand the relationship between the monster locations and also their location on the planet.  In our imaginary scenario, we plan to submit our paper to one of the Nature journals.
 
 What's the story? What should readers learn from this map? What data do you need to tell that story effectively?
 
-The story I plan to tell is where are these monsters reported to live? What are their names? For reference, what lakes and states or provinces are they in?  Your story might be different
+The story I plan to tell is where are these monsters reported to live? What are their names? For reference, what lakes and states or provinces are they in?  The story you want to tell might be different, so feel free to make adjustments as needed.
 
 ## Download Data
-If you haven't already, download the workshop data from the [online repository](https://ucdavis.app.box.com/folder/123942289025)
+If you haven't already, download the workshop data from the [online repository](https://ucdavis.app.box.com/folder/123942289025).
 
 The data we have to work with today is:
-* LakeMonsters.gpkg - locations of lake monsters; global distribution
-* Lakes_GreatLakes-Area.gpkg - a clip of the Natural Earth Data lakes dataset for the Great Lakes and areas adjacent
-* US_CAN_Admin1.gpkg - a clip of the Natural Earth Data states and provinces data for the US and Canada
+* Lake Monsters - LakeMonsters.gpkg - locations of lake monsters; global distribution
+* Lakes - Lakes_GreatLakes-Area.gpkg - a clip of the Natural Earth Data lakes dataset for the Great Lakes and areas adjacent
+* States - US_CAN_Admin1.gpkg - a clip of the Natural Earth Data states and provinces data for the US and Canada (I'm going to refer to these as "states" for simplicity, but I want to acknowledge that this includes Canadian provinces as well.)
 
 Geopackage (.gpkg) is a single file, open vector format. We're using it today because it's one file per dataset (unlike Shapefile), which makes data management so much easier.  See the README.txt file that comes with the data download for more details and sources of the data.
 
