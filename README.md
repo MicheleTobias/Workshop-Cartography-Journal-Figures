@@ -40,7 +40,10 @@ The very first thing you need to do is understand what story you need to tell.  
 
 Here's one real life example.  I made a set of maps for a professor in Sociology.  He was writing a book about cinemas in Paris.  He needed readers to understand the location of the cinemas he wrote about in relation to other key features like subway lines and streets.  So that's the story - where are the cinemas in relation to the streets and subways?
 
-![Alt Text](/images/StoryTelling_SmoodinBook.png)
+
+<!---![Alt Text](/images/StoryTelling_SmoodinBook.png)--->
+
+<img src="/images/StoryTelling_SmoodinBook.png" width="400"/>
 
 Map of incident locations published in Smoodin, E. 2020. *Paris in the Dark: Going to the Movies in the City of Light, 1930–1950.* Duke University Press.
 
@@ -90,7 +93,7 @@ Vary your line width or the size of your points.
 
 Save black for the most important items in your map - the things you need the reader to notice.
 
-![Alt Text](/images/VisualHierarchy_SmoodinBook.png)
+<img src="/images/VisualHierarchy_SmoodinBook.png" width="600"/>
 
 Reference map published in Smoodin, E. 2020. *Paris in the Dark: Going to the Movies in the City of Light, 1930–1950.* Duke University Press.
 
@@ -117,7 +120,7 @@ When you need to add map elements to the layout, please keep it simple and subtl
 
 Only add the elements that help your reader understand the map.  Eliminate everything extra.  When it doubt, explain it in the figure caption.
 
-![Alt Text](images/SelectiveMapElements_AZ_Wine_businesses.png)
+<img src="/images/SelectiveMapElements_AZ_Wine_businesses.png" width="400"/>
 A map figure with selected elements - notably it does not need a scale bar and north arrow - published in Myles, C., M.M. Tobias, & I. McKinnon.  2020. “‘A big fish in a small pond’: How Arizona wine country was made” in *Agritourism, Wine Tourism, Craft Beer Tourism: Local Responses to peripherality through tourism niches.*  M. Giulia Pezzi, A. Faggian, N. Reid, eds.  Routledge.
 
 ## 6. Image Export
