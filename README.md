@@ -69,20 +69,25 @@ Once you know your art specs, set up your page in the print composer/layout mana
 ### Fonts
 For readability, I suggest 8 pt or larger font.
 
-How many fonts? I use one, maybe 2 in a journal figure map. Bold, slant, itallic, and light variants of one fond are more than enough options *if I need them at all*.  Simplicity is key.
+How many fonts? I use **one, maybe 2** in a journal figure map. Bold, slant, itallic, and light variants of one font are more than enough options *if I need them at all*.  Simplicity is key.
 
-Which font?  It depends.  Pick a font that is readable at small sizes.  Typically, I find sans serif fonts (think Calibri) to work better than serif fonts (think Times New Roman) in small maps, but that's not a rule.  Calibri is a good standard choice available on most computers.  My current favorite is an open font called Glacial Indiference which has a bit of a mid-century modern vibe.
+Which font?  It depends.  Pick a font that is **readable at small sizes**.  Typically, I find sans serif fonts (think Calibri) to work better than serif fonts (think Times New Roman) in small maps, but that's not a rule.  Calibri is a good standard choice available on most computers.  My current favorite is an open font called [Glacial Indiference](https://www.fontsquirrel.com/fonts/glacial-indifference) which has a bit of a mid-century modern vibe, but just because I like it doesn't mean it's always a good choice.  Remember to ask yourself: Does this communicate the message well?
 
-Some font tricks that can help: adjust the line spacing and kerning (the distance between the letters) to tighten up labels and make them take up less room.  Don't go crazy, but a little less spacing is sometimes helpful.
+Some font tricks that can help: adjust the line spacing and kerning (the distance between the letters) to tighten up labels and make them take up less room or space them out to fill a larger space.  Don't go crazy, but adjusting the spacing is sometimes helpful.
+
+Be careful when downloading fonts.  Be sure you're using a reputable source.  Also, some fonts may not have all the characters you need, so be sure to check that they include the punctuation and international characters that your map requires.
 
 ### Color Hierarchy
 Even when you're restricted to a gray-scale color palette, you can make use of visual hierarchy.  
 
-Vary the amount of black in your grays (10% black is pretty light vs. 90% black is almost, well, black).  
+Vary the amount of black in your grays (10% black is pretty light vs. 90% black is almost black).  
 
 Vary your line width or the size of your points.  
 
 Save black for the most important items in your map - the things you need the reader to notice.
+
+![Alt Text](/images/VisualHierarchy_SmoodinBook.png)
+Reference map published in Smoodin, E. 2020. **Paris in the Dark: Going to the Movies in the City of Light, 1930–1950.** Duke University Press.
 
 ### Background Data
 Remember Step 1 where we discussed our story?  I bet "Google Maps" or "All of OSM" wasn't a part of that story.  My personal preference is to not use "base maps" or pre-assembled data tiles unless I absolutely have to.  Vector data is better for clear line work and often "base maps" contain too much information.  They can also be difficult to cite properly when the data has been re-processed by a commercial company.
