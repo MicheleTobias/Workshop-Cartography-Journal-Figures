@@ -40,6 +40,10 @@ The very first thing you need to do is understand what story you need to tell.  
 
 Here's one real life example.  I made a set of maps for a professor in Sociology.  He was writing a book about cinemas in Paris.  He needed readers to understand the location of the cinemas he wrote about in relation to other key features like subway lines and streets.  So that's the story - where are the cinemas in relation to the streets and subways?
 
+![Alt Text](/images/StoryTelling_SmoodinBook.png)
+
+Map of incident locations published in Smoodin, E. 2020. *Paris in the Dark: Going to the Movies in the City of Light, 1930–1950.* Duke University Press.
+
 ## 2. Data
 What data do we need to tell our story?  In the case of the Paris cinemas, I needed the cinema locations, the streets, and the subway lines.  In some cases, this is easier said than done.  Data processing is pretty common at this stage to issolate just the pieces of a data you need or to convert the data into a different format.  For the cinemas, I had addresses and those needed to be geocoded to create points.  I had OpenStreetMap data for the line work, but that includes a lot more lines than I needed so I had to subset to the larger roads (excluding foot paths) and subways.
 
@@ -87,7 +91,8 @@ Vary your line width or the size of your points.
 Save black for the most important items in your map - the things you need the reader to notice.
 
 ![Alt Text](/images/VisualHierarchy_SmoodinBook.png)
-Reference map published in Smoodin, E. 2020. **Paris in the Dark: Going to the Movies in the City of Light, 1930–1950.** Duke University Press.
+
+Reference map published in Smoodin, E. 2020. *Paris in the Dark: Going to the Movies in the City of Light, 1930–1950.* Duke University Press.
 
 ### Background Data
 Remember Step 1 where we discussed our story?  I bet "Google Maps" or "All of OSM" wasn't a part of that story.  My personal preference is to not use "base maps" or pre-assembled data tiles unless I absolutely have to.  Vector data is better for clear line work and often "base maps" contain too much information.  They can also be difficult to cite properly when the data has been re-processed by a commercial company.
