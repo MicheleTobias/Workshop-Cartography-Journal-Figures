@@ -7,7 +7,7 @@ Author: Michele Tobias
 This workshop will discuss approaches and guidelines for creating map figures for academic books and journals.  We'll use QGIS to illustrate one workflow in a graphical GIS.  This general workflow can be applied to other graphical GIS programs or even programming environments.
 
 ## Prerequisites
-In this workshop, I will assume you have An introductory understanding of:
+In this workshop, I will assume you have an introductory understanding of:
 * Common spatial data formats (raster and vector, specifically)
 * Desktop GIS in general, and QGIS specifically.  My [Intro to Desktop GIS with QGIS Workshop](https://github.com/MicheleTobias/Intro-to-Desktop-GIS-with-QGIS) is a good introduction or resource if you need a refresher.
 
