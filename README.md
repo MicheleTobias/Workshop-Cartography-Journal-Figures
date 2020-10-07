@@ -6,23 +6,30 @@ Author: Michele Tobias
 
 This workshop will discuss approaches and guidelines for creating map figures for academic books and journals.  We'll use QGIS to illustrate one workflow in a graphical GIS.  This general workflow can be applied to other graphical GIS programs or even programming environments.
 
-In this workshop, I will assume you have an introductory understanding of common spatial data formats (raster and vector, specifically), desktop GIS in general, and QGIS specifically.  My [Intro to Desktop GIS with QGIS Workshop](https://github.com/MicheleTobias/Intro-to-Desktop-GIS-with-QGIS) is a good introduction or resource if you need a refresher.
+## Prerequisites
+In this workshop, I will assume you have An introductory understanding of:
+* Common spatial data formats (raster and vector, specifically)
+* Desktop GIS in general, and QGIS specifically.  My [Intro to Desktop GIS with QGIS Workshop](https://github.com/MicheleTobias/Intro-to-Desktop-GIS-with-QGIS) is a good introduction or resource if you need a refresher.
 
-Prepare for this workshop:
+## Prepare for this workshop:
 * Download and install [QGIS](https://qgis.org/) - a free and open source GIS that works on Windows, Mac, and Linux
 * Download the workshop data from the [online repository](https://ucdavis.app.box.com/folder/123942289025) - note that you can download a zip of the folder's contents by clicking on the 3 dots button in the upper right corner.  You do not need to be a UC Davis affiliate to download this data.
 
 # Introduction
+When you're flipping through a book or journal article, you probably look at the pictures first.  Because figures draw our attention, they can be an incredibly important tool for conveying the message of your text. Communicating clearly within the restrictions of map figures require a specific set of skills that is a little different from making larger maps.
+
 How are map figures different from other maps you might make?
 * resticted size
 * restricted color pallette
+* limited in number
 * citations & license for data you use
 
-
-**KEY CONCEPTS:**
+**Key Concepts:**
 * MINIMIZE! Keep only what's absolutely necessary
 * What do I want my reader to learn from this map? How does it support the claims I make in my text?
 * Does my map communicate well?
+
+In this workshop, we'll learn strategies and steps to take in making map figures for publications.
 
 ------------------------------------------------------------------------------------------------------------------------
 # Steps in Making a Map for a Journal Figure
