@@ -97,6 +97,11 @@ Save black for the most important items in your map - the things you need the re
 
 Reference map published in Smoodin, E. 2020. *Paris in the Dark: Going to the Movies in the City of Light, 1930–1950.* Duke University Press.
 
+If you use color, save bright, saturated colors for the elements that need to stand out.  In the example below, I used grays and a muted blue for background information and for the important information (the railroad line variants) I used bold, saturated colors (that also print well in grayscale).  This image was made for a journal article with several similar maps, but this particular one was not needed because we decided we didn't need to discuss this particular area of the study in the paper.
+
+<img src="/images/LimitedColor_Railroad.png" width="400"/>
+An example of a limited color palette using bright colors sparingly to draw attention.
+
 ### Background Data
 Remember Step 1 where we discussed our story?  I bet "Google Maps" or "All of OSM" wasn't a part of that story.  My personal preference is to not use "base maps" or pre-assembled data tiles unless I absolutely have to.  Vector data is better for clear line work and often "base maps" contain too much information.  They can also be difficult to cite properly when the data has been re-processed by a commercial company.
 
