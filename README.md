@@ -126,6 +126,7 @@ When you need to add map elements to the layout, please keep it simple and subtl
 Only add the elements that help your reader understand the map.  Eliminate everything extra.  When it doubt, explain it in the figure caption.
 
 <img src="/images/SelectiveMapElements_AZ_Wine_businesses.png" width="400"/>
+
 A map figure with selected elements - notably it does not need a scale bar and north arrow - published in Myles, C., M.M. Tobias, & I. McKinnon.  2020. “‘A big fish in a small pond’: How Arizona wine country was made” in *Agritourism, Wine Tourism, Craft Beer Tourism: Local Responses to peripherality through tourism niches.*  M. Giulia Pezzi, A. Faggian, N. Reid, eds.  Routledge.
 
 ## 6. Image Export
