@@ -194,6 +194,7 @@ Most importantly:
 2. Load in the data - Lake Monsters, Lakes, Admin 1 boundaries (states). All of the data we're working with today is vector data.
 
 <img src="/images/LoadData.png" width="600"/>
+Note that the colors of the data are selected at random, so your data will probably look different.
 
 
 3. Save your project file.
@@ -219,6 +220,14 @@ Set the page size:
 Now that this is set up, we can close this window and come back to it after we've styled the data.
 
 ## Style the data
+We've decided on our story, loaded up our data, and set up our page.  Now it's time to style the data.
+
+First, let's center our view on the Great Lakes area using the zoom tool. It doesn't have to be perfect.  We will adjust later.
+
+<img src="/images/ZoomToGreatLakes.png" width="600"/>
+Again, these colors do NOT communicate well at all.  We'll change it soon.
+
+
 
 ## Make adjustments
 
