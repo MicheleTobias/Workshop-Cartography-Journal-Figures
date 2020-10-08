@@ -40,9 +40,7 @@ The very first thing you need to do is understand what story you need to tell.  
 
 Here's one real life example.  I made a set of maps for a professor in Sociology.  He was writing a book about cinemas in Paris.  He needed readers to understand the location of the cinemas he wrote about in relation to other key features like subway lines and streets.  So that's the story - where are the cinemas in relation to the streets and subways?
 
-
 <!---![Alt Text](/images/StoryTelling_SmoodinBook.png)--->
-
 <img src="/images/StoryTelling_SmoodinBook.png" width="400"/>
 
 Map of incident locations published in Smoodin, E. 2020. *Paris in the Dark: Going to the Movies in the City of Light, 1930–1950.* Duke University Press.
@@ -113,7 +111,8 @@ One special thing about figures in journal articles is that they get captions!  
 Depending on the journal, the figure caption should contain the citation in the journal's preferred style for the data you used and the cartographer's name.
 
 <img src="/images/FigureCaption.jpg" width="400"/>
-Be prepared to cite the data you used and the cartographer's name in the figure caption, as well as give any contextual information that the reader will need to know to interpret the map.
+
+Be prepared to cite the data you used and the cartographer's name in the figure caption, as well as give any contextual information that the reader will need to know to interpret the map. (Myles, C., M.M. Tobias, & I. McKinnon.  2021. “‘A big fish in a small pond’: How Arizona wine country was made” in *Agritourism, Wine Tourism, Craft Beer Tourism: Local Responses to peripherality through tourism niches.*  M. Giulia Pezzi, A. Faggian, N. Reid, eds.  Routledge.)
 
 ### Map Elements
 You may have learned in your introductory GIS class that all maps need a title, legend, scale bar, and north arrow.  That was a lie.  Well... let me explain.  We talked earlier about identifying your story and tailoring your map to communicate well.  Some map figures will need some of these things.  Others will not.  
@@ -130,7 +129,7 @@ Only add the elements that help your reader understand the map.  Eliminate every
 
 <img src="/images/SelectiveMapElements_AZ_Wine_businesses.png" width="400"/>
 
-A map figure with selected elements - notably it does not need a scale bar and north arrow - published in Myles, C., M.M. Tobias, & I. McKinnon.  2020. “‘A big fish in a small pond’: How Arizona wine country was made” in *Agritourism, Wine Tourism, Craft Beer Tourism: Local Responses to peripherality through tourism niches.*  M. Giulia Pezzi, A. Faggian, N. Reid, eds.  Routledge.
+A map figure with selected elements - notably it does not need a scale bar and north arrow - published in Myles, C., M.M. Tobias, & I. McKinnon.  2021. “‘A big fish in a small pond’: How Arizona wine country was made” in *Agritourism, Wine Tourism, Craft Beer Tourism: Local Responses to peripherality through tourism niches.*  M. Giulia Pezzi, A. Faggian, N. Reid, eds.  Routledge.
 
 ## 6. Image Export
 Refer to your publisher specifications.  Export the format they ask for using the parameters they want.  If it's a raster format (.jpg, .png, .tiff), export the image in the highest resolution they ask for.  
@@ -194,7 +193,8 @@ Most importantly:
 
 2. Load in the data - Lake Monsters, Lakes, Admin 1 boundaries (states). All of the data we're working with today is vector data.
 
-![Alt Text](/images/LoadData.png)
+<img src="/images/LoadData.png" width="600"/>
+
 
 3. Save your project file.
 
