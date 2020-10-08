@@ -112,6 +112,9 @@ One special thing about figures in journal articles is that they get captions!  
 
 Depending on the journal, the figure caption should contain the citation in the journal's preferred style for the data you used and the cartographer's name.
 
+<img src="/images/FigureCaption.jpg" width="400"/>
+Be prepared to cite the data you used and the cartographer's name in the figure caption, as well as give any contextual information that the reader will need to know to interpret the map.
+
 ### Map Elements
 You may have learned in your introductory GIS class that all maps need a title, legend, scale bar, and north arrow.  That was a lie.  Well... let me explain.  We talked earlier about identifying your story and tailoring your map to communicate well.  Some map figures will need some of these things.  Others will not.  
 
