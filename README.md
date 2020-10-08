@@ -200,8 +200,23 @@ Most importantly:
 
 4. Set your project's projection to North America Albers Equal Area Conic (ESRI: 102008). I'm using the first transformation it offers me because that one is most appropriate for the area we'll be mapping today. Save again.
 
-
 ## Set up the print layout page
+In QGIS, the print layout interface is where you compose your map.  Typically, I will set up my layout before I start styling data (mainly because I just looked up my art specs and don't want to have to go find them later when I'm ready to finish up the map).
+
+Open a new layout:
+1. Project Menu -> New Print Layout
+2. In the window that pops up, give your new layout a name. I'll call mine "Nature Specs" so later I'll know this layout was for my Nature submission with this data. Click *OK*.
+3. A new blank layout window should now be open.
+
+<img src="/images/NewLayout.png" width="600"/>
+
+Set the page size:
+1. Right click anywhere on the white page in the middle of the window
+1. Select *Page Properties* from the menu
+1. On the panel on the right side of the screen, set the *Size* drop down to *Custom*, then set the *Width* to 183 mm and the *Height* to 240 mm for now - we'll shrink this later as needed. Note: there is a units drop down to the right of the *Width* and *Height* options.
+1. Click the save button.  This saves the whole project, not just the layout.
+
+Now that this is set up, we can close this window and come back to it after we've styled the data.
 
 ## Style the data
 
