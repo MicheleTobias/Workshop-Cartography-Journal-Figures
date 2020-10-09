@@ -262,6 +262,25 @@ The background layers - the states and the lakes - now seem to recede and demand
 
 <img src="/images/Style_Lakes.png" width="600"/>
 
+
+### Lake Monsters
+The last layer to style is the lake monsters.
+1. Activate this layer in the *Layers* panel.
+1. In the *Layer Styling* panel, click on the words *Simple marker*.
+1. Scroll down to the box that contains different marker shapes.  Circles are the obvious choice for point data, but I like to use squares for my point markers rather than circles because they stand out.  Both are good options.  In academic publications, I try to avoidthings like stars.  They might look silly, but more importantly, they are complex shapes and we're trying to avoid complexity.
+1. For the *Fill color*, I'm going to use straight up black (#000000).  This will make the points stand out well against the lighter background data.
+1. Adjust the *Size* as needed.  I'm going to leave this for now until I see how it looks in the composer.
+
+<img src="/images/Style_Monsters.png" width="600"/>
+
+
+## Labels
+
+
+## Print Composer
+
+
+
 ## Make adjustments
 
 ## Export your map
