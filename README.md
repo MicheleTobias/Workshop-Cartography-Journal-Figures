@@ -219,6 +219,8 @@ Set the page size:
 
 Now that this is set up, we can close this window and come back to it after we've styled the data.
 
+
+
 ## Style the data
 We've decided on our story, loaded up our data, and set up our page.  Now it's time to style the data.
 
@@ -228,6 +230,22 @@ First, let's center our view on the Great Lakes area using the zoom tool. It doe
 Again, these colors do NOT communicate well at all.  We'll change it soon.
 
 
+Let's open the *Layer Styling* Panel. This is a toolbar that can be docked on the side of the window and allows us to make changes to the layer styling with live updates (so we don't have to keep clicking to update).
+1. Click the *View* menu at the top of the QGIS window
+1. Choose *Panels*
+1. Check *Layer Styling* - there should now be a panel on the right side of your screen.
+1. Make sure the box next to *Live update* is checked.  You can uncheck this if you don't want it to update choices automatically, for example, if you're working on a big file and it's slow to update as you work.
+
+### States
+Let's start with the largest background layer.  This will have a big impact on how we style the other layers and will help set the tone for how we work.
+1. In the *Layers* panel (table of contents) on the right, click on the States layer (*US_CAN_Admin1*).  The options in the *Layer Styling* panel on the right should now reflect the current state of the States layer.
+1. In the *Layer Styling* panel, click on the words *Simple fill* - this lets us access the details of the way the state polygons are displayed.
+1. Click on the colored box for the *Fill color*.
+1. I want to make the fill of the states white, so in the *HTML notation* box, I will specificy *#ffffff* as the color (6 Fs).  You could pick any color you like from the various color selector methods.  When you're done, click the back buton (blue triangle near the top of the panel) to go back to the *Simple fill* options.
+1. For the *Stroke color* (the outline of the polygons), I want to pick a shade of gray.  Click in the color box next to *Stroke color*.  In the color sliders, you can move the H (for hue) and S (saturation) sliders to 0, and the V (for value) to 80, or you can put *#cbcbcb* in the *HTML notation*.
+
+The stroke on the states might look a little light and might be confusing to the eye because the ocean color is the same color as the fill.  Let's change the background color to make the ocean color easier for our eyes to understand:
+1. 
 
 ## Make adjustments
 
