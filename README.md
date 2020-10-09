@@ -255,6 +255,12 @@ We've got more work to do, but this is already starting to look better!
 ### Lakes
 Let's work on the lakes next.
 1. Select the lakes file (*Lakes_GreatLakes-Area*) on the *Layers* panel on the right so it's activated in the *Layer Styling* panel.
+1. In the *Layer styling* panel, change the fill color to 75% white (25% black)
+1. For the *Stroke style* drop-down menu, pick *No pen*, which removes the stroke altogether.
+
+The background layers - the states and the lakes - now seem to recede and demand less of our attention.  This is important so we can make the monster locations stand out next.
+
+<img src="/images/Style_Lakes.png" width="600"/>
 
 ## Make adjustments
 
