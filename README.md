@@ -245,7 +245,16 @@ Let's start with the largest background layer.  This will have a big impact on h
 1. For the *Stroke color* (the outline of the polygons), I want to pick a shade of gray.  Click in the color box next to *Stroke color*.  In the color sliders, you can move the H (for hue) and S (saturation) sliders to 0, and the V (for value) to 80, or you can put *#cbcbcb* in the *HTML notation*.
 
 The stroke on the states might look a little light and might be confusing to the eye because the ocean color is the same color as the fill.  Let's change the background color to make the ocean color easier for our eyes to understand:
-1. 
+1. On the *Project* menu, select *Properties*.
+1. In the *General* tab on the right side of the window, click on *Background color*.  Change it to the same color as the stroke of your states.  Click *OK* in the color interface and *OK* in the Options interface.
+
+<img src="/images/Style_States.png" width="600"/>
+
+We've got more work to do, but this is already starting to look better!
+
+### Lakes
+Let's work on the lakes next.
+1. Select the lakes file (*Lakes_GreatLakes-Area*) on the *Layers* panel on the right so it's activated in the *Layer Styling* panel.
 
 ## Make adjustments
 
