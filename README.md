@@ -345,13 +345,14 @@ Color: Black
 **Formatting Tab**
 
 Wrap on Character: ,
+
 Line height: 0.70 line
 
 **Rendering Tab**
 
 Check box for *Show all labels for this layer (including colliding labels)
 
-
+<img src="/images/Labels.png" width="600"/>
 
 ## Make adjustments
 Use the *Label Toolbar* to move and rotate labels by hand
