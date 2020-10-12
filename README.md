@@ -275,6 +275,14 @@ The last layer to style is the lake monsters.
 
 
 ## Labels
+Labeling options are also available in the *Layer Styling* panel.  Click on the yellow "abc" icon on the strip of icons on the left side of the panel.  For each layer, you'll need to choose a type of label - we'll just need *Single Labels* for this map, but feel free to explore the other options.  Once this option is set, you'll see lots of tabs across the upper part of the panel.  Each tab has many options to explore.
+
+I like to pick a single font to work with for the whole map.  I will use **Calibri** here and show you ways to vary this single font to meet our needs.  Note that my default font is some system font, so I'll need to change that for each layer.  You can use whatever you like.  The reason I'm using Calibri is that (1) you are likely to have it as well, (2) it's sans serrif (it has simple lines and no flourishes... compare it with Times New Roman which is a serif font), and (3) it has many variants - regular, bold, bold italic, italic, light, light italic - so it's like have 6 fonts that all go together.
+
+Another choice I'll make up front is that I will use **8 point font** unless I need something bigger (probably the point labels will be larger).
+
+### States
+
 
 
 ## Print Composer
