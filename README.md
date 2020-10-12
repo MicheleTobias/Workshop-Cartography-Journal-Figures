@@ -283,13 +283,85 @@ Another choice I'll make up front is that I will use **8 point font** unless I n
 
 ### States
 
+**Text Tab**
+
+Value: UPPER("name")
+
+Font: Calibri
+
+Size: 8 points
+
+Color: same as the ocean and state stroke (#cbcbcb)
+
+**Formatting Tab**
+
+Letter Spacing: 1.5
+
+**Rendering Tab**
+
+Check box for *Show all labels for this layer (including colliding labels)
+
+
+### Lakes
+We'll used rule-based labeling with this one so we don't label all the tiny lakes.
+
+Description: Big Lakes
+
+Filter:  $area > 19000000000
+
+
+**Text Tab**
+
+Value: name
+
+Font: Calibri
+
+Style: Italic (traditionally, waterbodies are label with a slant or italic font... it's not a rule)
+
+Size: 8 points
+
+Color: slightly darker or lighter than the lake color - let's try 50% black (#7f7f7f)
+
+
+**Rendering Tab**
+
+Check box for *Show all labels for this layer (including colliding labels)
+
+
+### Lake Monsters
+
+**Text Tab**
+
+Value: name
+
+Font: Calibri
+
+Style: Bold
+
+Size: 10 points
+
+Color: Black
+
+**Formatting Tab**
+
+Wrap on Character: ,
+Line height: 0.70 line
+
+**Rendering Tab**
+
+Check box for *Show all labels for this layer (including colliding labels)
+
+
+
+## Make adjustments
+Use the *Label Toolbar* to move and rotate labels by hand
 
 
 ## Print Composer
 
 
 
-## Make adjustments
+
 
 ## Export your map
 
