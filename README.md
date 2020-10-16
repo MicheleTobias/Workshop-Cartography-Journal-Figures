@@ -4,7 +4,7 @@ Author: Michele Tobias
 
 **This workshop is a work in progress.  Please check back later for the finished product.  Target completion date: October 27, 2020**
 
-This workshop will discuss approaches and guidelines for creating map figures for academic books and journals.  We'll use QGIS to illustrate one workflow in a graphical GIS.  This general workflow can be applied to other graphical GIS programs or even programming environments.
+This workshop will discuss approaches and guidelines for creating map figures for academic books and journals.  I will use **QGIS 3.14** to illustrate one workflow in a graphical GIS.  This general workflow can be applied to other graphical GIS programs or even non-map figures.
 
 ## Prerequisites
 In this workshop, I will assume you have an introductory understanding of:
@@ -16,7 +16,7 @@ In this workshop, I will assume you have an introductory understanding of:
 * Download the workshop data from the [online repository](https://ucdavis.app.box.com/folder/123942289025) - note that you can download a zip of the folder's contents by clicking on the 3 dots button in the upper right corner.  You do not need to be a UC Davis affiliate to download this data.
 
 # Introduction
-When you're flipping through a book or journal article, you probably look at the pictures first.  Because figures draw our attention, they can be an incredibly important tool for conveying the message of your text. Communicating clearly within the restrictions of map figures require a specific set of skills that is a little different from making larger maps.
+When you're flipping through a book or journal article, you probably look at the pictures first.  Because figures draw our attention, they can be an incredibly important tool for conveying the message of your text. Communicating clearly within the restrictions of map figures require a specific set of skills that is a little different from making larger maps for other purposes.
 
 How are map figures different from other maps you might make?
 * resticted size
@@ -26,7 +26,7 @@ How are map figures different from other maps you might make?
 
 **Key Concepts:**
 * MINIMIZE! Keep only what's absolutely necessary
-* What do I want my reader to learn from this map? How does it support the claims I make in my text?
+* What do I want my reader to learn from this map? How does it support the claims I make in my text? What story should my map tell?
 * Does my map communicate well?
 
 In this workshop, we'll learn strategies and steps to take in making map figures for publications.
@@ -49,7 +49,7 @@ Map of incident locations published in Smoodin, E. 2020. *Paris in the Dark: Goi
 What data do we need to tell our story?  In the case of the Paris cinemas, I needed the cinema locations, the streets, and the subway lines.  In some cases, this is easier said than done.  Data processing is pretty common at this stage to issolate just the pieces of a data you need or to convert the data into a different format.  For the cinemas, I had addresses and those needed to be geocoded to create points.  I had OpenStreetMap data for the line work, but that includes a lot more lines than I needed so I had to subset to the larger roads (excluding foot paths) and subways.
 
 ## 3. Journal Art Specifications
-We still haven't made a map yet.  We need to know what the publisher specifications are before we start anything else.  There's no point in creating a beautiful map at full page size when you won't be able to use it in the final product.  Publisher specs are often rather restrictive.  This will drive much of your creativity but also provide a decent amount of frustration.  Be prepared.  Additionally, if you submit art that doesn't follow the publisher specs, the art staff may alter your file.  This is something to avoid as much as possible for maps because the art staff won't necessarily understand some of the subtleties like how resizing a map would alter it's scale bar or that cartographers can get very picky about label placement.
+We still haven't made a map yet.  We need to know what the publisher specifications (specs) are before we start anything else.  There's no point in creating a beautiful map at full page size when you won't be able to use it in the final product.  Publisher specs are often rather restrictive.  This will drive much of your creativity but also provide a decent amount of frustration.  Be prepared.  Additionally, if you submit art that doesn't follow the publisher specs, the art staff may alter your file.  This is something to avoid as much as possible for maps because the art staff won't necessarily understand some of the subtleties like how resizing a map would alter it's scale bar or that cartographers can get very picky about label placement.
 
 Let's look at one real-world example: [Nature's Journals](https://www.nature.com/nature/for-authors/formatting-guide)
 
@@ -57,9 +57,9 @@ I look for the following pieces of information:
 
 1. **Maximum figure size:** 89 mm (spans 1 column) or 183 mm (spans 2 columns) wide and maximum 247 mm high.  *This means our figures should be one of the two width dimensions and not a variation.  We can have whatever height we need up to the maxium.*
 1. **Aspect ratio restrictions:** none listed. *That's fine because we have very specific dimensions.*
-1. **Color guidance or restrictions:** Color figures have a monetary charge; uses four-color reproduction (they use cyan, magenta, yellow, and black (CMYK) inks for printed material). *If they charge for color, try to make a grayscale map.*
+1. **Color guidance or restrictions:** Color figures have a monetary charge in Nature's journals; uses four-color reproduction (they use cyan, magenta, yellow, and black (CMYK) inks for printed material). *If they charge for color, try to make a grayscale map.*
 1. **Font guidance or restrictions:** none listed for maps.  *Some journals will specify a particular font or that the font must be an open font. I suggest sticking with something fairly common unless you really need a special font.*
-1. **Format and quality:** electronic format, suggesting .JPG "at good enough quality to be assessed by referees".  Eventually, you'll submit higher quality figures for publication but not for the review process.  *Some journals will specify things like .eps files or .tiff of a certain dpi and may also expect certain color encoding (CMYK, RGB, etc.).  If it's not specified, I will usually use 600 dpi. Note that if you can't supply a .eps file, a plain .svg is usually readable by Adobe Illustrator with minimal issues.*
+1. **Format and quality:** electronic format, suggesting .JPG "at good enough quality to be assessed by referees".  Eventually, you'll submit higher quality figures for publication but not for the review process.  *Some journals will specify things like .eps files or .tiff of a certain dpi and may also expect certain color encoding (CMYK, RGB, etc.).  For images, if dpi is not specified, I will usually use 600 dpi. Note that if you can't supply a .eps file, a plain .svg is usually readable by Adobe Illustrator with minimal issues.*
 1. **Other limitations:** Nature dos not want figures to have separate panels within the same figure unless they are related to each other. This means we can only have one map per figure unless they are related.
 
 
@@ -82,14 +82,27 @@ Some font tricks that can help: adjust the line spacing and kerning (the distanc
 
 Be careful when downloading fonts.  Be sure you're using a reputable source.  Also, some fonts may not have all the characters you need, so be sure to check that they include the punctuation and international characters that your map requires.
 
-### Color Hierarchy
-Even when you're restricted to a gray-scale color palette, you can make use of visual hierarchy.  
+### Visual Hierarchy
 
-Vary the amount of black in your grays (10% black is pretty light vs. 90% black is almost black).  
+Visual Hierarchy refers to the order in which we notice elements on a page.  Certain characteristics get noticed first.  We can use these charactersitics to our advantage to make sure the reader sees what we want them to see.
 
-Vary your line width or the size of your points.  
+#### Contrast
 
-Save black for the most important items in your map - the things you need the reader to notice.
+Even when you're restricted to a gray-scale color palette, you can make use of visual hierarchy.  Elements that have high contrast with respect to the other elements around them are noticed first.  For example, darker elements stand out in comparison to light backgrounds and lighter elements stand out on a dark background.
+
+<img src="/images/VisualHierarchy_Grays.png" width="300"/>
+
+Vary the amount of black in your grays (10% black is pretty light vs. 90% black is almost black).   Save black for the most important items in your map - the things you need the reader to notice.
+
+
+ 
+#### Size
+
+Larger things get noticed before smaller things and size can also convey imporatance.  Vary your line width or the size of your points to draw attention to more important elements.  
+
+<img src="/images/VisualHierarchy_Size.png" width="300"/> <img src="/images/VisualHierarchy_Text.png" width="300"/>
+
+Here is an example of a map that makes use of visual hierarchy.  The roads are there, but muted to let the arrondisement boundaries and the point locations stand out.
 
 <img src="/images/VisualHierarchy_SmoodinBook.png" width="600"/>
 
@@ -119,7 +132,7 @@ You may have learned in your introductory GIS class that all maps need a title, 
 
 **Title:** You'll almost never need a title (that's what the figure caption is for).  
 
-**Legend:** If your style choices are obvious, you don't need a legend.  Study site locations marked with bold black dots, clearly labeled, probably don't need a legend.  Legends should show the elements a reader woudn't figure out on their own. 
+**Legend:** If your style choices are obvious, you don't need a legend.  For example, study site locations marked with bold black dots, clearly labeled, probably don't need a legend.  Legends should show the elements a reader woudn't figure out on their own. 
 
 **Scale Bar & North Arrow:** If your map shows the entirety of a recognizable geographic element, such as a continent, you probably don't need a scale bar and if you haven't rotated the map, you don't need a north arrow.  
 
@@ -136,14 +149,14 @@ Refer to your publisher specifications.  Export the format they ask for using th
 
 Often you will submit lower resolution images for the review process and higher quality images for the final submission.
 
-Caveats for the final submission: If they ask for 300 dpi or less, I'm still sending 600.  If they don't specify an image format or resolution, I default to 600 dpi .tiff or .png. If they ask for a .ai or .eps file and you don't have access to Adobe Illustrator to create that, a plain .svg, or a .pdf will also work.  
+Caveats for the final submission: If they ask for 300 dpi or less, I'm still sending 600.  If they don't specify an image format or resolution, I default to 600 dpi .tiff or .png. If they ask for a .ai or .eps file and you don't have access to Adobe Illustrator to create that, a plain .svg, or a .pdf will also work because Illustrator can open and edit these formats too.  
 
 ## 7. Licensing 
 Can you cite your data?  Are you allowed to publish it?  
 
-More and more often, publishers are asking for proof of their ability to publish the data legally.  This means that the data either need to be open licensed or you need a document giving you permission to use the data in a publication.  You decide the license for the data you create.  Where people typically get hung up is on data they download from the internet.  When you do this, look for the data's license statement, readme file, or metadata to find the license and save that information alongside the data files.  I'll put relevant license information, source, and date I downloaded it in a .txt file in the same folder with the data.
+More and more often, publishers are asking for proof of their ability to publish the data legally.  This means that the data either need to be open licensed or you need a document giving you permission to use the data in a publication.  You decide the license for the data you create.  Where people typically get hung up is on data they download from the internet.  When you do this, look for the data's license statement, readme file, or metadata to find the license and save that information alongside the data files.  I often put relevant license information, source, and date I downloaded it in a .txt file in the same folder with the data to ahve the information ready when I need it..
 
-Some journals are also asking who made the maps you include in your submission to avoid reproducing images that belong to someone else - i.e. maps you find online and want to use. 
+Some journals want to know who made the maps you include in your submission to avoid reproducing images that belong to someone else - i.e. maps you find online and want to use. 
 
 
 -----------------------------------------------------------------------------------------------
@@ -170,7 +183,7 @@ The data we have to work with today is:
 Geopackage (.gpkg) is a single file, open vector format. We're using it today because it's one file per dataset (unlike Shapefile), which makes data management so much easier.  See the README.txt file that comes with the data download for more details and sources of the data.
 
 ### Data Processing
-We'll be working with an international dataset of locations of lake monsters, the most famous of which is arguably Nessie who supposedly lives in Loch Ness in Scotland.  This dataset was assembled from [Wikipedia's List of Lake Monsters](https://en.m.wikipedia.org/wiki/List_of_lake_monsters).  The lake names were geocoded (you can find the R script that I wrote to process the data in the [r_scripts](/r_scripts) folder of this repo), then exported to a geopackage file.  Why did I process this data for you?  It took a few hours to do and requires skills we are not focusing on in this workshop.  
+We'll be working with an international dataset of locations of lake monsters, the most famous of which is arguably Nessie who supposedly lives in Loch Ness in Scotland.  This dataset was assembled from [Wikipedia's List of Lake Monsters](https://en.m.wikipedia.org/wiki/List_of_lake_monsters).  The lake names were geocoded (you can find the R script that I wrote to process the data in the [r_scripts](/r_scripts) folder of this repo), corrected, then exported to a geopackage file.  Why did I process this data for you?  It took a few hours to do and requires skills we are not focusing on in this workshop.  
 
 <!---
 Other Possible data options
@@ -258,7 +271,7 @@ Let's work on the lakes next.
 1. In the *Layer styling* panel, change the fill color to 75% white (25% black)
 1. For the *Stroke style* drop-down menu, pick *No pen*, which removes the stroke altogether.
 
-The background layers - the states and the lakes - now seem to recede and demand less of our attention.  This is important so we can make the monster locations stand out next.
+Remember our discussion of Visual Hierarchy? The background layers - the states and the lakes - now seem to recede and demand less of our attention.  This is important so we can make the monster locations stand out next.
 
 <img src="/images/Style_Lakes.png" width="600"/>
 
@@ -267,7 +280,7 @@ The background layers - the states and the lakes - now seem to recede and demand
 The last layer to style is the lake monsters.
 1. Activate this layer in the *Layers* panel.
 1. In the *Layer Styling* panel, click on the words *Simple marker*.
-1. Scroll down to the box that contains different marker shapes.  Circles are the obvious choice for point data, but I like to use squares for my point markers rather than circles because they stand out.  Both are good options.  In academic publications, I try to avoidthings like stars.  They might look silly, but more importantly, they are complex shapes and we're trying to avoid complexity.
+1. Scroll down to the box that contains different marker shapes.  Circles are the obvious choice for point data, but I like to use squares for my point markers rather than circles because they stand out.  Both are good options.  In academic publications, I try to avoid shapes like stars.  They might look silly, but more importantly, they are complex shapes and we're trying to avoid complexity.
 1. For the *Fill color*, I'm going to use straight up black (#000000).  This will make the points stand out well against the lighter background data.
 1. Adjust the *Size* as needed.  I'm going to leave this for now until I see how it looks in the composer.
 
@@ -285,7 +298,7 @@ Another choice I'll make up front is that I will use **8 point font** unless I n
 
 **Text Tab**
 
-Value: UPPER("name")
+Value: UPPER("name") - The *UPPER()* function changes the text in the *name* field to all caps.
 
 Font: Calibri
 
@@ -295,7 +308,7 @@ Color: same as the ocean and state stroke (#cbcbcb)
 
 **Formatting Tab**
 
-Letter Spacing: 1.5
+Letter Spacing: 1.5 - This spaces out the letters, a design choice that is fairly common with labeling large polygons
 
 **Rendering Tab**
 
@@ -303,7 +316,7 @@ Check box for *Show all labels for this layer (including colliding labels)
 
 
 ### Lakes
-We'll used rule-based labeling with this one so we don't label all the tiny lakes.
+We'll used rule-based labeling with this one so we just label the big lakes.  Labeling all the lakes would clutter the map.
 
 Description: Big Lakes
 
@@ -344,18 +357,18 @@ Color: Black
 
 **Formatting Tab**
 
-Wrap on Character: ,
+Wrap on Character: , (comma) - When labels contain a comma, the comma is replaced by a new line character so the labels with two names print each name on its own line.
 
-Line height: 0.70 line
+Line height: 0.70 line - This makes the lines closer to eachother when there are two lines in a label.
 
 **Rendering Tab**
 
-Check box for *Show all labels for this layer (including colliding labels)
+Check box for *Show all labels for this layer (including colliding labels)*
 
 <img src="/images/Labels.png" width="600"/>
 
 ## Make adjustments
-Use the *Label Toolbar* to move and rotate labels by hand
+Use the *Label Toolbar* to move and rotate labels by hand to put them where you want them.  This will take some time.  Just get them close and don't spend time getting things perfect.  We'll need to adjust more later.
 
 
 ## Print Composer
@@ -374,13 +387,20 @@ Using the resizing handles (they look like white squares when the map is selecte
 
 Now that we've picked a scale to render our map at, your labels may not look quite the way you want them.  Copy the number in th scale box of the *Item Properties* for the map.  Switch to the main QGIS window and paste that copied number in the scale box at the bottom center of the window.  Now the scales match and we can see the effect it has on our lables.  Spend some time adjusting them to a better position.  
 
-Switch back to the layout window and click the *Refresh view* button.  I might adjust my scale, center, and some of the labels as needed.  For states that are not fulling visible in the map, I will probably move the labels off the map so they aren't getting cut off.  Also, you may need to turn off the option to *Show all labels for this layer (including colliding labels)* for any labels that are misbehaving (some of mine were in different places than I put them in the layout).
+Switch back to the layout window and click the *Refresh view* button.  I might adjust my scale, center, and some of the labels as needed.  For states that are not fully visible in the map, I will probably move the labels off the map so they aren't getting cut off.  Also, you may need to turn off the option to *Show all labels for this layer (including colliding labels)* for any labels that are misbehaving (some of mine were in different places than I put them in the layout).
 
 Now we can resize the map to tighten up the border.  Again, using the resizing handles, adjust the size of the map to fit the data well. (I adjusted some label placement yet again as I refined my composition.  This is normal. As you change one aspect, others may need adjustment too.)
 
-Finally, let's adjust our map canvas to fit our map.  In the properties for the map, look in the *Position and Size* section to see how high the map is.  Copy that number.  Click off of the map so it's no longer selected.  Right click on the white page space and select *Item properties* to open the properties for the page itself.  Paste the hight number in the *Height* property to match our map element to the page.  Again, you may now decide a label or some other item needs adjustment.
+Finally, let's adjust our map canvas to fit our map:
 
-Finally, do we need any other elements?  This depends on (1) your story, (2) your audience, and (3) what other maps do you have.  Is this for a North American audience?  Then you probably don't need a scale bar or north arrow because the Great Lakes are a fairly recognizable area.  Is it for an international audience?  Maybe you need those things.  Maybe I have another map that shows all of North America or the world and I've already outlined my study area in that.  Then I don't need to add extra context.  If I was going to put a scale bar and north arrow, I would put them on Iowa and Illinois and I would make them the same gray as the state lines or maybe the same color as the lakes and they would be reasonably small.  Complex compass roses are wonderful for large maps, but they are not a good choice when your space is limited.
+1. In the properties for the map, look in the *Position and Size* section to see how high the map is.  Copy that number.  
+1. Click off of the map so it's no longer selected.  
+1. Right click on the white page space and select *Item properties* to open the properties for the page itself.  
+1. Paste the hight number in the *Height* property to match our map element to the page.  Again, you may now decide a label or some other item needs adjustment.
+
+Finally, do we need any other elements?  This depends on (1) your story, (2) your audience, and (3) what other maps you have in the paper you are submitting.  Is this for a North American audience?  Then you probably don't need a scale bar or north arrow because the Great Lakes are a fairly recognizable area.  Is it for an international audience?  Maybe you need those things.  Maybe I have another map that shows all of North America or the world and I've already outlined my study area in that.  Then I don't need to add extra context.  
+
+If I was going to put a scale bar and north arrow, I would put them on Iowa and Illinois and I would make them the same gray as the state lines or maybe the same color as the lakes and they would be reasonably small.  Complex compass roses are wonderful for large maps, but they are not a good choice when your space is limited.
 
 Sometimes I will put a box behind the scale and north arrow filled with the background color (white in this case) to avoid conflicts with the data around them. We can cut off a part of the Iowa/Illinois state line to make the label more clear and not hurt the way the map communicates the data.
 
@@ -396,9 +416,11 @@ Exporting happens in the *Print Composer*.  Click the *Export as Image* button, 
 
 
 # Resources
-Inkscape - for fixing fine details
-Cartography conventions for things like rivers and labels
 
-[QGIS Training Manual for Map Composer](https://docs.qgis.org/3.10/en/docs/training_manual/map_composer/index.html)
+Here are some reasources to help you refine your maps:
 
-[USGS Topographic Symbols](https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf?utm_source=twitter&utm_medium=social&utm_term=61da4941-22fe-4c68-80b1-b4d070f25f17&utm_content=&utm_campaign=usgs)
+* [Inkscape](http://inkscape.org/) - I use this program for fixing fine details.  It's a free and open source vector illustrator program so it is similar, but not the same as Adobe Illustrator.  Export a .svg file from the QGIS print composer and open it in Inkscape to edit things like labels with super fine control.
+
+* [QGIS Training Manual for Map Composer](https://docs.qgis.org/3.10/en/docs/training_manual/map_composer/index.html)
+
+* [USGS Topographic Symbols](https://pubs.usgs.gov/gip/TopographicMapSymbols/topomapsymbols.pdf?utm_source=twitter&utm_medium=social&utm_term=61da4941-22fe-4c68-80b1-b4d070f25f17&utm_content=&utm_campaign=usgs)
