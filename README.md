@@ -388,6 +388,11 @@ Sometimes I will put a box behind the scale and north arrow filled with the back
 
 ## Export your map
 
+Finally, we're done with our map! (Ok, it's normal if you're now seeing a dozen things you would change, but you've got to submit that paper, so let them go!)  Let's export it!
+
+Exporting happens in the *Print Composer*.  Click the *Export as Image* button, decide where to save your map and what file type you want.  The journal asks for a .jpg file at a high enough resolution for the reviewers to review it in the first submission.  Later, they'll want something of a higher resolution and probably a different format, but for now, let's pick .jpg. Give it a descriptive name so we know what it is when we put it in the paper.  I'll call mine *GreatLakeMonsters.jpg* Once you click the *Save* button, a window will pop up asking for more parameters.  300 dpi is sufficient for the first submission.  Leave the page height and width as they are - it adjusts automatically to match the dpi - and *Save*.
+
+<img src="/images/FinishedMap.png" width="600"/>
 
 
 # Resources
