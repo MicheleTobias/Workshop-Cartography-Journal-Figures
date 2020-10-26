@@ -13,7 +13,7 @@ In this workshop, I will assume you have an introductory understanding of:
 
 ## Prepare for this workshop:
 * Download and install [QGIS](https://qgis.org/) - a free and open source GIS that works on Windows, Mac, and Linux
-* Download the workshop data from the [online repository](https://ucdavis.app.box.com/folder/123942289025) - note that you can download a zip of the folder's contents by clicking on the 3 dots button in the upper right corner.  You do not need to be a UC Davis affiliate to download this data.
+* Download the workshop data from the [online repository](https://ucdavis.box.com/s/ozobvtvehgmsnfrizwb2darqfsoqmmgq) - note that you can download a zip of the folder's contents by clicking on the 3 dots button in the upper right corner.  You do not need to be a UC Davis affiliate to download this data.
 
 # Introduction
 When you're flipping through a book or journal article, you probably look at the pictures first.  Because figures draw our attention, they can be an incredibly important tool for conveying the message of your text. Communicating clearly within the restrictions of map figures require a specific set of skills that is a little different from making larger maps for other purposes.
@@ -173,7 +173,7 @@ What's the story? What should readers learn from this map? What data do you need
 The story I plan to tell is where are these monsters reported to live? What are their names? For reference, what lakes and states or provinces are they in?  The story you want to tell might be different, so feel free to make adjustments as needed.
 
 ## Download Data
-If you haven't already, download the workshop data from the [online repository](https://ucdavis.app.box.com/folder/123942289025).
+If you haven't already, download the workshop data from the [online repository](https://ucdavis.box.com/s/ozobvtvehgmsnfrizwb2darqfsoqmmgq).
 
 The data we have to work with today is:
 * Lake Monsters - LakeMonsters.gpkg - locations of lake monsters; global distribution
