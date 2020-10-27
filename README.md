@@ -2,8 +2,6 @@
 
 Author: Michele Tobias
 
-**This workshop is a work in progress.  Please check back later for the finished product.  Target completion date: October 27, 2020**
-
 This workshop will discuss approaches and guidelines for creating map figures for academic books and journals.  I will use **QGIS 3.14** to illustrate one workflow in a graphical GIS.  This general workflow can be applied to other graphical GIS programs or even non-map figures.
 
 ## Prerequisites
