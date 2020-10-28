@@ -5,7 +5,7 @@ Author: Michele Tobias
 This workshop will discuss approaches and guidelines for creating map figures for academic books and journals.  I will use **QGIS 3.14** to illustrate one workflow in a graphical GIS.  This general workflow can be applied to other graphical GIS programs or even non-map figures.
 
 A recording of this workshop is available:
-* October 27, 2020 with QGIS 3.14 [DataLab YouTub Channel]() Link coming soon!
+* October 27, 2020 with QGIS 3.14 [DataLab YouTub Channel](https://www.youtube.com/watch?v=eue8LoL33jA)
 
 ## Prerequisites
 In this workshop, I will assume you have an introductory understanding of:
