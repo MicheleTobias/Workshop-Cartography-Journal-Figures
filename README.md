@@ -2,33 +2,38 @@
 
 Author: Michele Tobias
 
-This workshop will discuss approaches and guidelines for creating map figures for academic books and journals.  I will use **QGIS 3.14** to illustrate one workflow in a graphical GIS.  This general workflow can be applied to other graphical GIS programs or even non-map figures.
+This workshop cover approaches and guidelines for creating map figures for academic books and journals using **QGIS 3.26** to illustrate one workflow in a graphical GIS.  This general workflow can be applied to other graphical GIS programs or even non-map figures.
+
+This workshop is divided into two sections. The first covers concepts and approaches to making figures. The seond will provide hands-on experience making a map figure in QGIS.
 
 A recording of this workshop is available:
-* October 27, 2020 with QGIS 3.14 [DataLab YouTub Channel](https://www.youtube.com/watch?v=eue8LoL33jA)
+* October 27, 2020 with QGIS 3.14 [DataLab YouTube Channel](https://www.youtube.com/watch?v=eue8LoL33jA)
 
 ## Prerequisites
-In this workshop, I will assume you have an introductory understanding of:
+The first section of this workshop has no perquisites.
+
+In the hands-on section of this workshop, I will assume you have an introductory understanding of:
 * Common spatial data formats (raster and vector, specifically)
 * Desktop GIS in general, and QGIS specifically.  My [Intro to Desktop GIS with QGIS Workshop](https://github.com/MicheleTobias/Intro-to-Desktop-GIS-with-QGIS) is a good introduction or resource if you need a refresher.
 
 ## Prepare for this workshop:
 * Download and install [QGIS](https://qgis.org/) - a free and open source GIS that works on Windows, Mac, and Linux
 * Download the workshop data from the [online repository](https://ucdavis.box.com/s/ozobvtvehgmsnfrizwb2darqfsoqmmgq) - note that you can download a zip of the folder's contents by clicking on the 3 dots button in the upper right corner.  You do not need to be a UC Davis affiliate to download this data.
+* If you downloaded a zip, unzip the zipped folder to a location on your computer that you can find.
 
 # Introduction
 When you're flipping through a book or journal article, you probably look at the pictures first.  Because figures draw our attention, they can be an incredibly important tool for conveying the message of your text. Communicating clearly within the restrictions of map figures require a specific set of skills that is a little different from making larger maps for other purposes.
 
 How are map figures different from other maps you might make?
-* resticted size
-* restricted color pallette
+* restricted size
+* restricted color palette
 * limited in number
 * citations & license for data you use
 
 **Key Concepts:**
-* MINIMIZE! Keep only what's absolutely necessary
-* What do I want my reader to learn from this map? How does it support the claims I make in my text? What story should my map tell?
-* Does my map communicate well?
+* **Minimize.** Keep only what's absolutely necessary
+* **Tell the Story.** What do I want my reader to learn from this map? How does it support the claims I make in my text? What story should my map tell?
+* **Communication.** Does my map communicate well?
 
 In this workshop, we'll learn strategies and steps to take in making map figures for publications.
 
@@ -42,12 +47,12 @@ The very first thing you need to do is understand what story you need to tell.  
 Here's one real life example.  I made a set of maps for a professor in Sociology.  He was writing a book about cinemas in Paris.  He needed readers to understand the location of the cinemas he wrote about in relation to other key features like subway lines and streets.  So that's the story - where are the cinemas in relation to the streets and subways?
 
 <!---![Alt Text](/images/StoryTelling_SmoodinBook.png)--->
-<img src="/images/StoryTelling_SmoodinBook.png" width="400"/>
+<img src="/images/StoryTelling_SmoodinBook.png" atl="Map with light gray lines for streets, and black lines for important metro lines and black markers and text for important locations." width="400"/>
 
 Map of incident locations published in Smoodin, E. 2020. *Paris in the Dark: Going to the Movies in the City of Light, 1930–1950.* Duke University Press.
 
 ## 2. Data
-What data do we need to tell our story?  In the case of the Paris cinemas, I needed the cinema locations, the streets, and the subway lines.  In some cases, this is easier said than done.  Data processing is pretty common at this stage to issolate just the pieces of a data you need or to convert the data into a different format.  For the cinemas, I had addresses and those needed to be geocoded to create points.  I had OpenStreetMap data for the line work, but that includes a lot more lines than I needed so I had to subset to the larger roads (excluding foot paths) and subways.
+What data do we need to tell our story?  In the case of the Paris cinemas, I needed the cinema locations, the streets, and the subway lines.  In some cases, this is easier said than done.  Data processing is pretty common at this stage to isolate just the pieces of a data you need or to convert the data into a different format.  For the cinemas, I had addresses and those needed to be [geocoded](https://github.com/MicheleTobias/geocoding-workshop) to create points.  I had OpenStreetMap data for the line work, but that includes a lot more lines than I needed so I had to subset to the larger roads (excluding foot paths) and subways.
 
 ## 3. Journal Art Specifications
 We still haven't made a map yet.  We need to know what the publisher specifications (specs) are before we start anything else.  There's no point in creating a beautiful map at full page size when you won't be able to use it in the final product.  Publisher specs are often rather restrictive.  This will drive much of your creativity but also provide a decent amount of frustration.  Be prepared.  Additionally, if you submit art that doesn't follow the publisher specs, the art staff may alter your file.  This is something to avoid as much as possible for maps because the art staff won't necessarily understand some of the subtleties like how resizing a map would alter it's scale bar or that cartographers can get very picky about label placement.
@@ -57,11 +62,11 @@ Let's look at one real-world example: [Nature's Journals](https://www.nature.com
 I look for the following pieces of information:
 
 1. **Maximum figure size:** 89 mm (spans 1 column) or 183 mm (spans 2 columns) wide and maximum 247 mm high.  *This means our figures should be one of the two width dimensions and not a variation.  We can have whatever height we need up to the maxium.*
-1. **Aspect ratio restrictions:** none listed. *That's fine because we have very specific dimensions.*
-1. **Color guidance or restrictions:** Color figures have a monetary charge in Nature's journals; uses four-color reproduction (they use cyan, magenta, yellow, and black (CMYK) inks for printed material). *If they charge for color, try to make a grayscale map.*
+1. **Aspect ratio restrictions:** none listed. *That's fine because they have very specific dimensions.* The aspect ratio is the ratio of the width to the height of the image. Some journals specify this. Others do not.
+1. **Color guidance or restrictions:** Color figures have a monetary charge in Nature's journals; color images use four-color reproduction (they use cyan, magenta, yellow, and black (CMYK) inks for printed material). *If they charge for color, try to make a grayscale map.* Grayscale is also a good choice because if someone prints the article on a black and white printer, the figure will still communicate well.
 1. **Font guidance or restrictions:** none listed for maps.  *Some journals will specify a particular font or that the font must be an open font. I suggest sticking with something fairly common unless you really need a special font.*
-1. **Format and quality:** electronic format, suggesting .JPG "at good enough quality to be assessed by referees".  Eventually, you'll submit higher quality figures for publication but not for the review process.  *Some journals will specify things like .eps files or .tiff of a certain dpi and may also expect certain color encoding (CMYK, RGB, etc.).  For images, if dpi is not specified, I will usually use 600 dpi. Note that if you can't supply a .eps file, a plain .svg is usually readable by Adobe Illustrator with minimal issues.*
-1. **Other limitations:** Nature dos not want figures to have separate panels within the same figure unless they are related to each other. This means we can only have one map per figure unless they are related.
+1. **Format and quality:** Nature specifies that you send images in an electronic format, suggesting .JPG "at good enough quality to be assessed by referees".  Eventually, you'll submit higher quality figures for publication but not for the review process.  *Some journals will specify things like .eps files or .tiff of a certain dpi and may also expect certain color encoding (CMYK, RGB, etc.).  For images, if dpi (dots per inch) is not specified, I will usually use 600 dpi. Note that if you can't supply a .eps file, a plain .svg is usually readable by Adobe Illustrator with minimal issues.*
+1. **Other limitations:** Nature dos not want figures to have separate panels within the same figure unless they are related to each other. This means we can only have one map per figure unless they are related. An example of a figure with panels related to each other is a time series multimap.
 
 
 Often you will need to piece together specs for maps from different sections of the author instructions.  Parts of the figure specs, photography, or graphs may apply.
@@ -73,7 +78,7 @@ Once you know your art specs, set up your page in the print composer/layout mana
 ## 5. Design & Layout
 
 ### Fonts
-For readability, I suggest 8 pt or larger font.
+For readability, I suggest 8 pt ([point](https://en.wikipedia.org/wiki/Point_(typography)) or larger font.
 
 How many fonts? I use **one, maybe 2** in a journal figure map. Bold, slant, itallic, and light variants of one font are more than enough options *if I need them at all*.  Simplicity is key.
 
@@ -81,27 +86,27 @@ Which font?  It depends.  Pick a font that is **readable at small sizes**.  Typi
 
 Some font tricks that can help: adjust the line spacing and kerning (the distance between the letters) to tighten up labels and make them take up less room or space them out to fill a larger space.  Don't go crazy, but adjusting the spacing is sometimes helpful.
 
-Be careful when downloading fonts.  Be sure you're using a reputable source.  Also, some fonts may not have all the characters you need, so be sure to check that they include the punctuation and international characters that your map requires.
+Be careful when downloading fonts.  Be sure you're using a reputable source to avoid accidentally downloading a virus instead of a font.  Also, some fonts may not have all the characters you need, so be sure to check that they include the punctuation and international characters that your map requires.
 
 ### Visual Hierarchy
 
-Visual Hierarchy refers to the order in which we notice elements on a page.  Certain characteristics get noticed first.  We can use these charactersitics to our advantage to make sure the reader sees what we want them to see.
+Visual Hierarchy refers to the order in which we notice elements on a page.  Certain characteristics get noticed first.  We can use these characteristics to our advantage to make sure the reader sees what we want them to see.
 
 #### Contrast
 
 Even when you're restricted to a gray-scale color palette, you can make use of visual hierarchy.  Elements that have high contrast with respect to the other elements around them are noticed first.  For example, darker elements stand out in comparison to light backgrounds and lighter elements stand out on a dark background.
 
-<img src="/images/VisualHierarchy_Grays.png" width="300"/>
+<img src="/images/VisualHierarchy_Grays.png" alt="white, light gray, and dark gray lines crossing white and black backgrounds" width="300"/>
 
 Vary the amount of black in your grays (10% black is pretty light vs. 90% black is almost black).   Save black for the most important items in your map - the things you need the reader to notice.
 
 
- 
+
 #### Size
 
-Larger things get noticed before smaller things and size can also convey imporatance.  Vary your line width or the size of your points to draw attention to more important elements.  
+Larger things get noticed before smaller things and size can also convey importance.  Vary your line width or the size of your points to draw attention to more important elements.  
 
-<img src="/images/VisualHierarchy_Size.png" width="300"/> <img src="/images/VisualHierarchy_Text.png" width="300"/>
+<img src="/images/VisualHierarchy_Size.png" alt="Circles of varying sizes and lines of varying widths." width="300"/> <img src="/images/VisualHierarchy_Text.png" alt="Text that reads You notice big text before small text. The words big text are much larger than the other words." width="300"/>
 
 Here is an example of a map that makes use of visual hierarchy.  The roads are there, but muted to let the arrondisement boundaries and the point locations stand out.
 
@@ -133,7 +138,7 @@ You may have learned in your introductory GIS class that all maps need a title, 
 
 **Title:** You'll almost never need a title (that's what the figure caption is for).  
 
-**Legend:** If your style choices are obvious, you don't need a legend.  For example, study site locations marked with bold black dots, clearly labeled, probably don't need a legend.  Legends should show the elements a reader woudn't figure out on their own. 
+**Legend:** If your style choices are obvious, you don't need a legend.  For example, study site locations marked with bold black dots, clearly labeled, probably don't need a legend.  Legends should show the elements a reader woudn't figure out on their own.
 
 **Scale Bar & North Arrow:** If your map shows the entirety of a recognizable geographic element, such as a continent, you probably don't need a scale bar and if you haven't rotated the map, you don't need a north arrow.  
 
@@ -152,12 +157,12 @@ Often you will submit lower resolution images for the review process and higher 
 
 Caveats for the final submission: If they ask for 300 dpi or less, I'm still sending 600.  If they don't specify an image format or resolution, I default to 600 dpi .tiff or .png. If they ask for a .ai or .eps file and you don't have access to Adobe Illustrator to create that, a plain .svg, or a .pdf will also work because Illustrator can open and edit these formats too.  
 
-## 7. Licensing 
+## 7. Licensing
 Can you cite your data?  Are you allowed to publish it?  
 
 More and more often, publishers are asking for proof of their ability to publish the data legally.  This means that the data either need to be open licensed or you need a document giving you permission to use the data in a publication.  You decide the license for the data you create.  Where people typically get hung up is on data they download from the internet.  When you do this, look for the data's license statement, readme file, or metadata to find the license and save that information alongside the data files.  I often put relevant license information, source, and date I downloaded it in a .txt file in the same folder with the data to ahve the information ready when I need it..
 
-Some journals want to know who made the maps you include in your submission to avoid reproducing images that belong to someone else - i.e. maps you find online and want to use. 
+Some journals want to know who made the maps you include in your submission to avoid reproducing images that belong to someone else - i.e. maps you find online and want to use.
 
 
 -----------------------------------------------------------------------------------------------
@@ -190,10 +195,10 @@ We'll be working with an international dataset of locations of lake monsters, th
 Other Possible data options
 1. Bigfoot sightings - [data](http://bfro.net/GDB/default.asp) and [map](http://thumbnails.visually.netdna-cdn.com/squatch-watch-92-years-of-bigfoot-sightings-in-the-us-and-canada_5238386654cce.png)
 1. Davis mailboxes - [Yolo Co Open Data Portal](https://yodata-yolo.opendata.arcgis.com/)
-1. 
+1.
 --->
 
-## Publisher Specifications 
+## Publisher Specifications
 Let's assume this map is for an article in one of the Nature journals, so all of the specifications we discussed earlier will apply.
 
 Most importantly:
