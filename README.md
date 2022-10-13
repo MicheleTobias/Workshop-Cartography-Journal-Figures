@@ -110,26 +110,26 @@ Larger things get noticed before smaller things and size can also convey importa
 
 Here is an example of a map that makes use of visual hierarchy.  The roads are there, but muted to let the arrondisement boundaries and the point locations stand out.
 
-<img src="/images/VisualHierarchy_SmoodinBook.png" width="600"/>
+<img src="/images/VisualHierarchy_SmoodinBook.png" alt="a map of Paris showing the roads, arrondisements, and some points of interest"  width="600"/>
 
 Reference map published in Smoodin, E. 2020. *Paris in the Dark: Going to the Movies in the City of Light, 1930–1950.* Duke University Press.
 
 If you use color, save bright, saturated colors for the elements that need to stand out.  In the example below, I used grays and a muted blue for background information and for the important information (the railroad line variants) I used bold, saturated colors (that also print well in grayscale).  This image was made for a journal article with several similar maps, but this particular one was not needed because we decided we didn't need to discuss this particular area of the study in the paper.
 
-<img src="/images/LimitedColor_Railroad.png" width="400"/>
+<img src="/images/LimitedColor_Railroad.png" alt="a map showing topographic lines, and three colored lines that represent railroads" width="400"/>
 An example of a limited color palette using bright colors sparingly to draw attention.
 
 ### Background Data
 Remember Step 1 where we discussed our story?  I bet "Google Maps" or "All of OSM" wasn't a part of that story.  My personal preference is to not use "base maps" or pre-assembled data tiles unless I absolutely have to.  Vector data is better for clear line work and often "base maps" contain too much information.  They can also be difficult to cite properly when the data has been re-processed by a commercial company.
 
-I almost NEVER use an airphoto.  I love airphotos. They are fun to look at because they have a lot of information in them, but that's the problem.  We need simplicity and airphotos are not simple. Polygons in our map often cover up the airphoto, so that kind of defeats the purpose.
+I almost NEVER use an air photo.  I love air photos. They are fun to look at because they have a lot of information in them, but that's the problem.  We need simplicity and air photos are not simple. Polygons in our map often cover up the air photo, so that kind of defeats the purpose. Only use air photos or satellite images if you need them to tell your story.
 
 ### Figure Caption
 One special thing about figures in journal articles is that they get captions!  Captions are text that explains why you put this image in the article and what the reader needs to know about it.  Caption text can sometimes take the place of a map legend.  For example: *Figure 1: Study site locations. Black squares indicate sites treated with experimental weed killer and open circles indicate control sites.*
 
-Depending on the journal, the figure caption should contain the citation in the journal's preferred style for the data you used and the cartographer's name.
+Depending on the journal, the figure caption should contain the citation in the journal's preferred style for the data you used and the cartographer's name. Some journals want you to specify the cartographer even if the cartographer is an author.
 
-<img src="/images/FigureCaption.jpg" width="400"/>
+<img src="/images/FigureCaption.jpg" alt="a photograph of a book page showing a map figure with a caption printed under it" width="400"/>
 
 Be prepared to cite the data you used and the cartographer's name in the figure caption, as well as give any contextual information that the reader will need to know to interpret the map. (Myles, C., M.M. Tobias, & I. McKinnon.  2021. “‘A big fish in a small pond’: How Arizona wine country was made” in *Agritourism, Wine Tourism, Craft Beer Tourism: Local Responses to peripherality through tourism niches.*  M. Giulia Pezzi, A. Faggian, N. Reid, eds.  Routledge.)
 
@@ -140,13 +140,13 @@ You may have learned in your introductory GIS class that all maps need a title, 
 
 **Legend:** If your style choices are obvious, you don't need a legend.  For example, study site locations marked with bold black dots, clearly labeled, probably don't need a legend.  Legends should show the elements a reader woudn't figure out on their own.
 
-**Scale Bar & North Arrow:** If your map shows the entirety of a recognizable geographic element, such as a continent, you probably don't need a scale bar and if you haven't rotated the map, you don't need a north arrow.  
+**Scale Bar & North Arrow:** If your map shows the entirety of a recognizable geographic element, such as a continent or a state boundary, you probably don't need a scale bar and if you haven't rotated the map, you don't need a north arrow.  
 
 When you need to add map elements to the layout, please keep it simple and subtle.  Your reader will find the north arrow if they need it. It doesn't need to scream at them.   
 
 Only add the elements that help your reader understand the map.  Eliminate everything extra.  When it doubt, explain it in the figure caption.
 
-<img src="/images/SelectiveMapElements_AZ_Wine_businesses.png" width="400"/>
+<img src="/images/SelectiveMapElements_AZ_Wine_businesses.png" alt="a map showing business locations connected with lines and polygons indicating clusters of businesses" width="400"/>
 
 A map figure with selected elements - notably it does not need a scale bar and north arrow - published in Myles, C., M.M. Tobias, & I. McKinnon.  2021. “‘A big fish in a small pond’: How Arizona wine country was made” in *Agritourism, Wine Tourism, Craft Beer Tourism: Local Responses to peripherality through tourism niches.*  M. Giulia Pezzi, A. Faggian, N. Reid, eds.  Routledge.
 
@@ -160,7 +160,7 @@ Caveats for the final submission: If they ask for 300 dpi or less, I'm still sen
 ## 7. Licensing
 Can you cite your data?  Are you allowed to publish it?  
 
-More and more often, publishers are asking for proof of their ability to publish the data legally.  This means that the data either need to be open licensed or you need a document giving you permission to use the data in a publication.  You decide the license for the data you create.  Where people typically get hung up is on data they download from the internet.  When you do this, look for the data's license statement, readme file, or metadata to find the license and save that information alongside the data files.  I often put relevant license information, source, and date I downloaded it in a .txt file in the same folder with the data to ahve the information ready when I need it..
+More and more often, publishers are asking for proof of their ability to publish the data legally. *You* might legally be able to use a dataset for research and education, but a publisher cannot publish data with this kind of license. This means that the data either need to be open licensed or you need a document giving you permission to use the data in a publication.  You decide the license for the data you create.  Where people typically get hung up is on data they download from the internet.  When you do this, look for the data's license statement, readme file, or metadata to find the license and save that information alongside the data files.  I often put relevant license information, source, and date I downloaded it in a .txt file in the same folder with the data to have the information ready when I need it. Data created by the US Federal Government (such as Census data or Landsat imagery) is open licensed.
 
 Some journals want to know who made the maps you include in your submission to avoid reproducing images that belong to someone else - i.e. maps you find online and want to use.
 
@@ -176,15 +176,15 @@ Let's pretend we want to a map for a journal article about the underpinnings of 
 
 What's the story? What should readers learn from this map? What data do you need to tell that story effectively?
 
-The story I plan to tell is where are these monsters reported to live? What are their names? For reference, what lakes and states or provinces are they in?  The story you want to tell might be different, so feel free to make adjustments as needed.
+The story I plan to tell is: where are these monsters reported to live in the US Great Lakes area? What are their names? For reference, what lakes and states or provinces are they in?  The story you want to tell might be different, so feel free to make adjustments as needed.
 
 ## Download Data
-If you haven't already, download the workshop data from the [online repository](https://ucdavis.box.com/s/ozobvtvehgmsnfrizwb2darqfsoqmmgq).
+If you haven't already, download the workshop data from the [online repository](https://ucdavis.box.com/s/ozobvtvehgmsnfrizwb2darqfsoqmmgq). If you downloaded a .zip file, unzip the data to a folder you can easily find.
 
 The data we have to work with today is:
 * Lake Monsters - LakeMonsters.gpkg - locations of lake monsters; global distribution
-* Lakes - Lakes_GreatLakes-Area.gpkg - a clip of the Natural Earth Data lakes dataset for the Great Lakes and areas adjacent
-* States - US_CAN_Admin1.gpkg - a clip of the Natural Earth Data states and provinces data for the US and Canada (I'm going to refer to these as "states" for simplicity, but I want to acknowledge that this includes Canadian provinces as well.)
+* Lakes - Lakes_GreatLakes-Area.gpkg - a clip of the [Natural Earth Data](https://www.naturalearthdata.com/) lakes dataset for the Great Lakes and areas adjacent
+* States - US_CAN_Admin1.gpkg - a clip of the [Natural Earth Data](https://www.naturalearthdata.com/) states and provinces data for the US and Canada (I'm going to refer to these as "states" for simplicity, but I want to acknowledge that this includes Canadian provinces as well.)
 
 Geopackage (.gpkg) is a single file, open vector format. We're using it today because it's one file per dataset (unlike Shapefile), which makes data management so much easier.  See the README.txt file that comes with the data download for more details and sources of the data.
 
@@ -212,13 +212,13 @@ Most importantly:
 
 2. Load in the data - Lake Monsters, Lakes, Admin 1 boundaries (states). All of the data we're working with today is vector data.
 
-<img src="/images/LoadData.png" width="600"/>
+<img src="/images/LoadData.png" alt="a screenshot of QGIS showing the three layers loaded" width="600"/>
 Note that the colors of the data are selected at random, so your data will probably look different.
 
 
 3. Save your project file.
 
-4. Set your project's projection to North America Albers Equal Area Conic (ESRI: 102008). I'm using the first transformation it offers me because that one is most appropriate for the area we'll be mapping today. Save again.
+4. Set your project's projection to North America Albers Equal Area Conic (ESRI: 102008). This projection minimizes distortions for North America. If you're working on a map featuring a different area, choose a projection that fits your chosen area. I'm using the first transformation it offers me because that one is most appropriate for the area we'll be mapping today. Save again.
 
 ## Set up the print layout page
 In QGIS, the print layout interface is where you compose your map.  Typically, I will set up my layout before I start styling data (mainly because I just looked up my art specs and don't want to have to go find them later when I'm ready to finish up the map).
@@ -228,7 +228,7 @@ Open a new layout:
 2. In the window that pops up, give your new layout a name. I'll call mine "Nature Specs" so later I'll know this layout was for my Nature submission with this data. Click *OK*.
 3. A new blank layout window should now be open.
 
-<img src="/images/NewLayout.png" width="600"/>
+<img src="/images/NewLayout.png" alt="a screenshot of a blank print layout" width="600"/>
 
 Set the page size:
 1. Right click anywhere on the white page in the middle of the window
@@ -245,41 +245,44 @@ We've decided on our story, loaded up our data, and set up our page.  Now it's t
 
 First, let's center our view on the Great Lakes area using the zoom tool. It doesn't have to be perfect.  We will adjust later.
 
-<img src="/images/ZoomToGreatLakes.png" width="600"/>
+<img src="/images/ZoomToGreatLakes.png" alt="a screenshot of the map canvas zoomed to the Great Lakes area" width="600"/>
 Again, these colors do NOT communicate well at all.  We'll change it soon.
 
-
-Let's open the *Layer Styling* Panel. This is a toolbar that can be docked on the side of the window and allows us to make changes to the layer styling with live updates (so we don't have to keep clicking to update).
+Let's open the *Layer Styling* Panel. 
 1. Click the *View* menu at the top of the QGIS window
 1. Choose *Panels*
 1. Check *Layer Styling* - there should now be a panel on the right side of your screen.
 1. Make sure the box next to *Live update* is checked.  You can uncheck this if you don't want it to update choices automatically, for example, if you're working on a big file and it's slow to update as you work.
 
+This is a toolbar that can be docked on the side of the window and allows us to make changes to the layer styling with live updates (so we don't have to keep clicking to update).
+
 ### States
 Let's start with the largest background layer.  This will have a big impact on how we style the other layers and will help set the tone for how we work.
-1. In the *Layers* panel (table of contents) on the right, click on the States layer (*US_CAN_Admin1*).  The options in the *Layer Styling* panel on the right should now reflect the current state of the States layer.
+1. In the *Layers* panel (table of contents) on the left, click on the States layer (*US_CAN_Admin1*).  The options in the *Layer Styling* panel on the right should now reflect the current state of the States layer.
 1. In the *Layer Styling* panel, click on the words *Simple fill* - this lets us access the details of the way the state polygons are displayed.
 1. Click on the colored box for the *Fill color*.
 1. I want to make the fill of the states white, so in the *HTML notation* box, I will specificy *#ffffff* as the color (6 Fs).  You could pick any color you like from the various color selector methods.  When you're done, click the back buton (blue triangle near the top of the panel) to go back to the *Simple fill* options.
-1. For the *Stroke color* (the outline of the polygons), I want to pick a shade of gray.  Click in the color box next to *Stroke color*.  In the color sliders, you can move the H (for hue) and S (saturation) sliders to 0, and the V (for value) to 80, or you can put *#cbcbcb* in the *HTML notation*.
+1. For the *Stroke color* (the outline of the polygons), I want to pick a shade of gray.  Click in the color box next to *Stroke color*.  In the color sliders, you can move the H (for hue) and S (saturation) sliders to 0, and the V (for value) to 80, or you can put *#cbcbcb* in the *HTML notation*. Click the back button to return to the *Simple Fill* options when you're done.
+
+Save.
 
 The stroke on the states might look a little light and might be confusing to the eye because the ocean color is the same color as the fill.  Let's change the background color to make the ocean color easier for our eyes to understand:
 1. On the *Project* menu, select *Properties*.
-1. In the *General* tab on the right side of the window, click on *Background color*.  Change it to the same color as the stroke of your states.  Click *OK* in the color interface and *OK* in the Options interface.
+1. Select the *General* tab on the left side of the window, then click on *Background color* in the middle of the window.  Change it to the same color as the stroke of your states.  Click *OK* in the color interface and *OK* in the Options interface.
 
-<img src="/images/Style_States.png" width="600"/>
+<img src="/images/Style_States.png" alt="A screenshot of the map canvas showing the states with the style changes we made" width="600"/>
 
 We've got more work to do, but this is already starting to look better!
 
 ### Lakes
 Let's work on the lakes next.
 1. Select the lakes file (*Lakes_GreatLakes-Area*) on the *Layers* panel on the right so it's activated in the *Layer Styling* panel.
-1. In the *Layer styling* panel, change the fill color to 75% white (25% black)
+1. In the *Layer styling* panel, change the fill color to gray with 75% white (25% black) - *#bfbfbf*
 1. For the *Stroke style* drop-down menu, pick *No pen*, which removes the stroke altogether.
 
 Remember our discussion of Visual Hierarchy? The background layers - the states and the lakes - now seem to recede and demand less of our attention.  This is important so we can make the monster locations stand out next.
 
-<img src="/images/Style_Lakes.png" width="600"/>
+<img src="/images/Style_Lakes.png" alt="a screenshot showing the style changes to the lakes" width="600"/>
 
 
 ### Lake Monsters
@@ -290,7 +293,7 @@ The last layer to style is the lake monsters.
 1. For the *Fill color*, I'm going to use straight up black (#000000).  This will make the points stand out well against the lighter background data.
 1. Adjust the *Size* as needed.  I'm going to leave this for now until I see how it looks in the composer.
 
-<img src="/images/Style_Monsters.png" width="600"/>
+<img src="/images/Style_Monsters.png" alt="a screenshot showing square, black points" width="600"/>
 
 
 ## Labels
@@ -318,11 +321,11 @@ Letter Spacing: 1.5 - This spaces out the letters, a design choice that is fairl
 
 **Rendering Tab**
 
-Check box for *Show all labels for this layer (including colliding labels)
+In the *Overlapping labels* section, for the *mode*, choose "Allow overlaps without penalty".
 
 
 ### Lakes
-We'll used rule-based labeling with this one so we just label the big lakes.  Labeling all the lakes would clutter the map.
+We'll used rule-based labeling with this one so we just label the big lakes.  Labeling all the lakes would clutter the map. Choose *Rule-based labeling* from the drop-down list. Add a new label by clicking on the green + button at the bottom of the panel.
 
 Description: Big Lakes
 
@@ -344,7 +347,7 @@ Color: slightly darker or lighter than the lake color - let's try 50% black (#7f
 
 **Rendering Tab**
 
-Check box for *Show all labels for this layer (including colliding labels)
+In the *Overlapping labels* section, for the *mode*, choose "Allow overlaps without penalty".
 
 
 ### Lake Monsters
@@ -369,9 +372,9 @@ Line height: 0.70 line - This makes the lines closer to eachother when there are
 
 **Rendering Tab**
 
-Check box for *Show all labels for this layer (including colliding labels)*
+In the *Overlapping labels* section, for the *mode*, choose "Allow overlaps without penalty".
 
-<img src="/images/Labels.png" width="600"/>
+<img src="/images/Labels.png" alt="a map with text labels" width="600"/>
 
 ## Make adjustments
 Use the *Label Toolbar* to move and rotate labels by hand to put them where you want them.  This will take some time.  Just get them close and don't spend time getting things perfect.  We'll need to adjust more later.
@@ -389,11 +392,11 @@ With the map selected, let's adjust the scale and center of the map.  Change the
 
 Using the resizing handles (they look like white squares when the map is selected), adjust the size of the map to fit the data well.
 
-<img src="/images/Layout_AddCenterZoom_Map.png" width="600"/>
+<img src="/images/Layout_AddCenterZoom_Map.png" alt="a screenshot of the map composer showing a map added to the blank page" width="600"/>
 
 Now that we've picked a scale to render our map at, your labels may not look quite the way you want them.  Copy the number in th scale box of the *Item Properties* for the map.  Switch to the main QGIS window and paste that copied number in the scale box at the bottom center of the window.  Now the scales match and we can see the effect it has on our lables.  Spend some time adjusting them to a better position.  
 
-Switch back to the layout window and click the *Refresh view* button.  I might adjust my scale, center, and some of the labels as needed.  For states that are not fully visible in the map, I will probably move the labels off the map so they aren't getting cut off.  Also, you may need to turn off the option to *Show all labels for this layer (including colliding labels)* for any labels that are misbehaving (some of mine were in different places than I put them in the layout).
+Switch back to the layout window and click the *Refresh view* button.  I might adjust my scale, center, and some of the labels as needed.  For states that are not fully visible in the map, I will probably move the labels off the map so they aren't getting cut off.  Also, you may need to turn off the options related to showing labels for any labels that are misbehaving (some of mine were in different places than I put them in the layout).
 
 Now we can resize the map to tighten up the border.  Again, using the resizing handles, adjust the size of the map to fit the data well. (I adjusted some label placement yet again as I refined my composition.  This is normal. As you change one aspect, others may need adjustment too.)
 
@@ -410,7 +413,7 @@ If I was going to put a scale bar and north arrow, I would put them on Iowa and 
 
 Sometimes I will put a box behind the scale and north arrow filled with the background color (white in this case) to avoid conflicts with the data around them. We can cut off a part of the Iowa/Illinois state line to make the label more clear and not hurt the way the map communicates the data.
 
-<img src="/images/Layout_Final.png" width="600"/>
+<img src="/images/Layout_Final.png" alt="The map fit to the page in the composer" width="600"/>
 
 ## Export your map
 
@@ -418,7 +421,7 @@ Finally, we're done with our map! (Ok, it's normal if you're now seeing a dozen 
 
 Exporting happens in the *Print Composer*.  Click the *Export as Image* button, decide where to save your map and what file type you want.  The journal asks for a .jpg file at a high enough resolution for the reviewers to review it in the first submission.  Later, they'll want something of a higher resolution and probably a different format, but for now, let's pick .jpg. Give it a descriptive name so we know what it is when we put it in the paper.  I'll call mine *GreatLakeMonsters.jpg* Once you click the *Save* button, a window will pop up asking for more parameters.  300 dpi is sufficient for the first submission.  Leave the page height and width as they are - it adjusts automatically to match the dpi - and *Save*.
 
-<img src="/images/FinishedMap.png" width="600"/>
+<img src="/images/FinishedMap.png" alt="the finished map" width="600"/>
 
 
 # Resources
