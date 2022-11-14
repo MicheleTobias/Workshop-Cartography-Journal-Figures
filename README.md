@@ -78,7 +78,7 @@ Once you know your art specs, set up your page in the print composer/layout mana
 ## 5. Design & Layout
 
 ### Fonts
-For readability, I suggest 8 pt ([point](https://en.wikipedia.org/wiki/Point_(typography)) or larger font.
+For readability, I suggest 8 pt ([point](https://en.wikipedia.org/wiki/Point_(typography))) or larger font.
 
 How many fonts? I use **one, maybe 2** in a journal figure map. Bold, slant, itallic, and light variants of one font are more than enough options *if I need them at all*.  Simplicity is key.
 
