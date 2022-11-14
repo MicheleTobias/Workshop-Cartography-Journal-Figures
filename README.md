@@ -303,6 +303,8 @@ I like to pick a single font to work with for the whole map.  I will use **Calib
 
 Another choice I'll make up front is that I will use **8 point font** unless I need something bigger (probably the point labels will be larger).
 
+Next, I've listed some styling options I will use for each of our layers:
+
 ### States
 
 **Text Tab**
