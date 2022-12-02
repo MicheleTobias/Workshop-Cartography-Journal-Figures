@@ -7,6 +7,7 @@ This workshop cover approaches and guidelines for creating map figures for acade
 This workshop is divided into two sections. The first covers concepts and approaches to making figures. The seond will provide hands-on experience making a map figure in QGIS.
 
 A recording of this workshop is available:
+* November 11, 2022 with QGIS 3.26 [maptimeDavis YouTube Channel](https://www.youtube.com/watch?v=MnGqzyCC9pM)
 * October 27, 2020 with QGIS 3.14 [DataLab YouTube Channel](https://www.youtube.com/watch?v=eue8LoL33jA)
 
 ## Prerequisites
