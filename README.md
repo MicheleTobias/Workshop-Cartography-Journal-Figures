@@ -397,7 +397,7 @@ Using the resizing handles (they look like white squares when the map is selecte
 
 <img src="/images/Layout_AddCenterZoom_Map.png" alt="a screenshot of the map composer showing a map added to the blank page" width="600"/>
 
-Now that we've picked a scale to render our map at, your labels may not look quite the way you want them.  Copy the number in th scale box of the *Item Properties* for the map.  Switch to the main QGIS window and paste that copied number in the scale box at the bottom center of the window.  Now the scales match and we can see the effect it has on our lables.  Spend some time adjusting them to a better position.  
+Now that we've picked a scale to render our map at, your labels may not look quite the way you want them.  Copy the number in the scale box of the *Item Properties* for the map.  Switch to the main QGIS window and paste that copied number in the scale box at the bottom center of the window.  Now the scales match and we can see the effect it has on our lables.  Spend some time adjusting them to a better position.  
 
 Switch back to the layout window and click the *Refresh view* button.  I might adjust my scale, center, and some of the labels as needed.  For states that are not fully visible in the map, I will probably move the labels off the map so they aren't getting cut off.  Also, you may need to turn off the options related to showing labels for any labels that are misbehaving (some of mine were in different places than I put them in the layout).
 
