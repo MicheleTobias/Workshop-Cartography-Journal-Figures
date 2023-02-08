@@ -81,7 +81,7 @@ Once you know your art specs, set up your page in the print composer/layout mana
 ### Fonts
 For readability, I suggest 8 pt ([point](https://en.wikipedia.org/wiki/Point_(typography))) or larger font.
 
-How many fonts? I use **one, maybe 2** in a journal figure map. Bold, slant, itallic, and light variants of one font are more than enough options *if I need them at all*.  Simplicity is key.
+How many fonts? I use **one, maybe two** in a journal figure map. Bold, slant, itallic, and light variants of one font are more than enough options *if I need them at all*.  Simplicity is key.
 
 Which font?  It depends.  Pick a font that is **readable at small sizes**.  Typically, I find sans serif fonts (think Calibri) to work better than serif fonts (think Times New Roman) in small maps, but that's not a rule.  Calibri is a good standard choice available on most computers.  My current favorite is an open font called [Glacial Indiference](https://www.fontsquirrel.com/fonts/glacial-indifference) which has a bit of a mid-century modern vibe, but just because I like it doesn't mean it's always a good choice. Antoher excellent choice is Sarah Bell's [BellTopo Sans](https://www.sarahbellmaps.com/belltopo-sans-font-by-sarah-bell/) font.  Remember to ask yourself: Does this communicate the message well?
 
