@@ -67,7 +67,7 @@ I look for the following pieces of information:
 1. **Color guidance or restrictions:** Color figures have a monetary charge in Nature's journals; color images use four-color reproduction (they use cyan, magenta, yellow, and black (CMYK) inks for printed material). *If they charge for color, try to make a grayscale map.* Grayscale is also a good choice because if someone prints the article on a black and white printer, the figure will still communicate well.
 1. **Font guidance or restrictions:** none listed for maps.  *Some journals will specify a particular font or that the font must be an open font. I suggest sticking with something fairly common unless you really need a special font.*
 1. **Format and quality:** Nature specifies that you send images in an electronic format, suggesting .JPG "at good enough quality to be assessed by referees".  Eventually, you'll submit higher quality figures for publication but not for the review process.  *Some journals will specify things like .eps files or .tiff of a certain dpi and may also expect certain color encoding (CMYK, RGB, etc.).  For images, if dpi (dots per inch) is not specified, I will usually use 600 dpi. Note that if you can't supply a .eps file, a plain .svg is usually readable by Adobe Illustrator with minimal issues.*
-1. **Other limitations:** Nature dos not want figures to have separate panels within the same figure unless they are related to each other. This means we can only have one map per figure unless they are related. An example of a figure with panels related to each other is a time series multimap.
+1. **Other limitations:** Nature does not want figures to have separate panels within the same figure unless they are related to each other. This means we can only have one map per figure unless they are related. An example of a figure with panels related to each other is a time series multimap.
 
 
 Often you will need to piece together specs for maps from different sections of the author instructions.  Parts of the figure specs, photography, or graphs may apply.
@@ -81,7 +81,7 @@ Once you know your art specs, set up your page in the print composer/layout mana
 ### Fonts
 For readability, I suggest 8 pt ([point](https://en.wikipedia.org/wiki/Point_(typography))) or larger font.
 
-How many fonts? I use **one, maybe 2** in a journal figure map. Bold, slant, itallic, and light variants of one font are more than enough options *if I need them at all*.  Simplicity is key.
+How many fonts? I use **one, maybe two** in a journal figure map. Bold, slant, itallic, and light variants of one font are more than enough options *if I need them at all*.  Simplicity is key.
 
 Which font?  It depends.  Pick a font that is **readable at small sizes**.  Typically, I find sans serif fonts (think Calibri) to work better than serif fonts (think Times New Roman) in small maps, but that's not a rule.  Calibri is a good standard choice available on most computers.  My current favorite is an open font called [Glacial Indiference](https://www.fontsquirrel.com/fonts/glacial-indifference) which has a bit of a mid-century modern vibe, but just because I like it doesn't mean it's always a good choice. Antoher excellent choice is Sarah Bell's [BellTopo Sans](https://www.sarahbellmaps.com/belltopo-sans-font-by-sarah-bell/) font.  Remember to ask yourself: Does this communicate the message well?
 
@@ -397,7 +397,7 @@ Using the resizing handles (they look like white squares when the map is selecte
 
 <img src="/images/Layout_AddCenterZoom_Map.png" alt="a screenshot of the map composer showing a map added to the blank page" width="600"/>
 
-Now that we've picked a scale to render our map at, your labels may not look quite the way you want them.  Copy the number in th scale box of the *Item Properties* for the map.  Switch to the main QGIS window and paste that copied number in the scale box at the bottom center of the window.  Now the scales match and we can see the effect it has on our lables.  Spend some time adjusting them to a better position.  
+Now that we've picked a scale to render our map at, your labels may not look quite the way you want them.  Copy the number in the scale box of the *Item Properties* for the map.  Switch to the main QGIS window and paste that copied number in the scale box at the bottom center of the window.  Now the scales match and we can see the effect it has on our lables.  Spend some time adjusting them to a better position.  
 
 Switch back to the layout window and click the *Refresh view* button.  I might adjust my scale, center, and some of the labels as needed.  For states that are not fully visible in the map, I will probably move the labels off the map so they aren't getting cut off.  Also, you may need to turn off the options related to showing labels for any labels that are misbehaving (some of mine were in different places than I put them in the layout).
 
