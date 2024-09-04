@@ -2,7 +2,7 @@
 
 Author: Michele Tobias
 
-This workshop cover approaches and guidelines for creating map figures for academic books and journals using **QGIS 3.26** to illustrate one workflow in a graphical GIS.  This general workflow can be applied to other graphical GIS programs or even non-map figures.
+This workshop cover approaches and guidelines for creating map figures for academic books and journals using **QGIS 3.38** to illustrate one workflow in a graphical GIS.  This general workflow can be applied to other graphical GIS programs or even non-map figures.
 
 This workshop is divided into two sections. The first covers concepts and approaches to making figures. The second will provide hands-on experience making a map figure in QGIS.
 
@@ -237,7 +237,7 @@ Set the page size:
 1. On the panel on the right side of the screen, set the *Size* drop down to *Custom*, then set the *Width* to 183 mm and the *Height* to 240 mm for now - we'll shrink this later as needed. Note: there is a units drop down to the right of the *Width* and *Height* options.
 1. Click the save button.  This saves the whole project, not just the layout.
 
-Now that this is set up, we can close this window and come back to it after we've styled the data.
+Now that this is set up, we can **close the Map Composer window** and come back to it after we've styled the data.
 
 
 
